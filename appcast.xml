@@ -1,13 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
-  <channel>
-    <title>DevKitty Native updates</title>
-    <link>https://github.com/egor-xyz/devkitty-releases/releases</link>
-    <description>Signed updates for DevKitty Native.</description>
-    <language>en</language>
-  </channel>
+    <channel>
+        <title>Devkitty</title>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Fri, 30 Oct 2026 19:02:04 +0200</pubDate>
+            <sparkle:version>184</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build184-preview/DevKitty-1.0.0-184.zip" length="14475830" type="application/octet-stream" sparkle:edSignature="o3Qb3NYyon+45mjqHPxtb/rlAfyeaxFb9aOTyF6QI7uvM6NHFtglJ6EBuih8XoUYPYqF1lR8sVKfHLWwcDuFAA=="></enclosure>
+        </item>
+    </channel>
 </rss><!-- sparkle-signatures:
-edSignature: T8WEUy59lnzVbBe7d+dkbpNp0dKXLL2n9JEifNciQhU0IvyarTgOYekHfakv9Wpr3qEJEQrkeHgThj+tjXsXDQ==
-length: 620
+edSignature: nGTsrSMaJcOW52Gh75UWlWzh+0FShM5DM0mkBEaoI9fNrW/YPxFhtOD3gUQd0Bp+fJiq1AAJanmUw/9+osX4Dw==
+length: 1074
 -->

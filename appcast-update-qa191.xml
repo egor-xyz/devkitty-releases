@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Devkitty</title>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Sat, 31 Oct 2026 01:14:39 +0200</pubDate>
+            <sparkle:version>183</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build191-install-qa/Devkitty-Install-QA-183.zip" length="15777315" type="application/octet-stream" sparkle:edSignature="l1REWXHTE3pu5WmEk1/fosuTM/6Fy+kbpBk9jfMQ5hj8OVPoIb8IQDAcE/Ij+E7Q4IyWkNB5vuoVLl3H3giEDg=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: OHUGVvMQDOoNoZ03FdHR/r3oYGWS5n/M4JlqJphsFyWo8CaAUQ3yXepq/uLB62LwA5d2QdTiZlMLBvfNgc5oBQ==
+length: 1082
+-->

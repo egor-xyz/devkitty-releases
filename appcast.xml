@@ -5,14 +5,14 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Fri, 30 Oct 2026 23:42:26 +0200</pubDate>
-            <sparkle:version>190</sparkle:version>
+            <pubDate>Sat, 31 Oct 2026 01:18:31 +0200</pubDate>
+            <sparkle:version>191</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build190-preview/DevKitty-1.0.0-190.zip" length="15370444" type="application/octet-stream" sparkle:edSignature="QpOSNs/RgaGltICCdsEdHLcmTQAx1PKamA/54aR3qFcmOVZZjhJlGFWNFsa0EAPuCqwaFYwzKR6mse6NlTd3AA=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build191-preview/DevKitty-1.0.0-191.zip" length="15390820" type="application/octet-stream" sparkle:edSignature="zVqUqP+sX2/vBU33ZR1Qcue0QAixywCOjR616c1pSinAkf1ZPKiqL8ejrRF5SQc/Q0U8+2eha4Khhkfdgr38Dg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: /2wHmXvLEsLavL5pWmSo8rJ/d2Ww+MOdCPsy/jYp1aneJdL/5/jse6+FNFm4sKpNUuQlzbP04vpTZfaAZrA0Bw==
+edSignature: 7dqvpc/uW3pTqIAg/sH69Gwb2KhVSprkCZwfU/yWr5nc1ZErh4ymiyZRzi1xUPgBqFgZOQ91F0pe5x6o9kn2Ag==
 length: 1074
 -->

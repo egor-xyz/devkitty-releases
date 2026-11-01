@@ -5,14 +5,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Sat, 31 Oct 2026 02:21:42 +0200</pubDate>
-            <sparkle:version>192</sparkle:version>
+            <pubDate>Sun, 01 Nov 2026 09:46:59 +0200</pubDate>
+            <sparkle:version>202</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build192-preview/DevKitty-1.0.0-192.zip" length="15399873" type="application/octet-stream" sparkle:edSignature="KiryfwQQEJ9CvDEJ0u4rhmAfzZ7Cb5eSkWlkfvKAaIiXtrqwxTt3edr9u2DAlRfY4pJpHbCEAfRrVEIZeDWzDw=="></enclosure>
+            <description><![CDATA[<h2>Devkitty 1.0.0 — build 202</h2>
+<ul>
+<li>Keep new terminal sessions running across app quits and reconnect to the same shell. Terminal settings include a default-on “Keep sessions running” switch. Closing a tab still ends its session; restarting the Mac ends running processes.</li>
+<li>Preserve Codex Agents launches during recovery. If an ordinary saved conversation is confirmed unavailable, open Agents so you can choose it instead of guessing another conversation.</li>
+<li>Preview Markdown and local HTML, find text with Command-F, and copy file paths from document headers and context menus. Local HTML scripts remain disabled.</li>
+<li>Choose whether terminal links open in a new tab or split pane; Command-Shift-click uses the other action.</li>
+<li>Use the macOS accent color in settings, consistent controls and shortcuts, and clearer extension names and ordering.</li>
+<li>Improve Quick terminal settings, sizing, opacity and the fading screen backdrop. Add the “Use tab history” option in Workspace settings.</li>
+</ul>
+<p>Requires Apple Silicon and macOS 27 or later.</p>
+]]></description>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build202/DevKitty-1.0.0-202.zip" length="17631004" type="application/octet-stream" sparkle:edSignature="wyGV4Csa8a8dLyXxJfT3ZT85TpuJo+yl5aRmxey8qrrFeH0e7DB7J4vOxrNlue3Gql6Ok5C9R+C4RNiK1N3bAw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: SHO3vS2+6ii6m5L+rHjF3p0Sw7dhrPQLPvEBHu8hzZ1DL12rTCNusDJHot0I3n5jY/X7xfZBJVGRDT4uuGf8CQ==
-length: 1074
+edSignature: JFzTuXEpUdaGpkOcRJ5kcO64ZMJzKDT7o/o7q/SCEYZUwnUaigPVbVRdq4vGtSbkcMPc1QJxuV9jsfmz/X2tBQ==
+length: 2218
 -->

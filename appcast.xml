@@ -5,14 +5,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Sun, 01 Nov 2026 18:17:22 +0200</pubDate>
+            <pubDate>Sun, 01 Nov 2026 18:17:23 +0200</pubDate>
             <sparkle:version>211</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Devkitty 1.0.0 (build 211)</h2>
+<ul>
+<li>GitHub pull requests now have a native glass panel with GitHub status colors, review details, checks, discussion and branch update controls.</li>
+<li>The GitHub toolbar status appears when a matching PR is found, with a short entrance animation that respects Reduce Motion. Required reviews are shown as red merge blockers.</li>
+<li>Keep the PR panel open for action confirmations; GitHub permissions and the current PR head are checked again before guarded actions.</li>
+<li>Improve browser translation controls, remember the last translation language, and show the Devkitty cat on new tabs.</li>
+<li>Carry forward workspace recovery, browser lifecycle, terminal link and widget fixes from recent previews.</li>
+<li>Add configurable PostHog diagnostics and feature flags. Session Replay stays off.</li>
+</ul>
+<p>The legacy dashboard and experimental iTerm2/cmux importer are hidden while their replacements are refined. An intermittent split-terminal Cmd-W exit remains unreproduced and is not claimed fixed.</p>
+]]></description>
             <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build211/DevKitty-1.0.0-211.zip" length="18747258" type="application/octet-stream" sparkle:edSignature="GpucQEx6U//Ldxuk8jwjMTVl5EMXN2kZnjXlBZYEKUgSHMtuVwCjVnT7Xvu3DrVVomI5MgV5TsxGwi6LXMQqDA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: LZmLYtw/ueajCxv8JduRozXzLkdw1DdhkAgO0rNRhvRaN0wwvtwCTOxGDAjii2liI7Gu4LvcAYuZ0moffjgwAA==
-length: 1066
+edSignature: vr1RhW7ZkKEzxgdS82mFr2d2j+6U0Xo344PDaZ/2Jjb4uU3pH4VuOJpzD5UBLSjXJHJblMSKfmPn5nhT5tyKCw==
+length: 2177
 -->

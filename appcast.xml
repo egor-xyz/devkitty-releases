@@ -5,24 +5,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Sun, 01 Nov 2026 19:45:53 +0200</pubDate>
-            <sparkle:version>212</sparkle:version>
+            <pubDate>Mon, 02 Nov 2026 13:09:25 +0200</pubDate>
+            <sparkle:version>220</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Devkitty 1.0.0 (build 212)</h2>
-<ul>
-<li>Correctly show queued and running CI checks when GitHub returns an empty conclusion or a previous attempt&#x27;s result after restarting.</li>
-<li>Reuse the rotating GitHub CI ring for running checks, solid pending dots and neutral skipped icons. Keep completed failures visible.</li>
-<li>Show reviewer avatars with GitHub-style status icons, using a bounded shared avatar cache.</li>
-<li>Activate an existing browser tab and window when the exact same URL is opened from an internal link or another app. Preserve the retained page and split layout; different queries and fragments remain separate.</li>
-<li>Preserve stale-session protections and existing browser-routing preferences.</li>
-</ul>
-<p>Includes the build 211 fixes. The confirmation layout redesign and merged-PR restore/revert controls are planned for 213 and are not part of this release.</p>
-]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build212/DevKitty-1.0.0-212.zip" length="18760995" type="application/octet-stream" sparkle:edSignature="IeG1Yb8zIScPNtKS52ruzJrlC/uu5P/KJJanIvuHsEN//5Bc0KtIu8nWxYFvzQFHomkpEZ/oJw3GjjpFLe8dCQ=="></enclosure>
+            <description><![CDATA[<h2>Devkitty 1.0.0 — build 220</h2>
+<p>• Restore the original compact tab fonts for horizontal workspaces and vertical sessions, while keeping larger text in settings and request panels.</p>
+<p>• Pull Requests now supports GitHub.com, GitLab.com and Bitbucket Cloud with separate native panels.</p>
+<p>• Bitbucket detects BITBUCKET_EMAIL and BITBUCKET_API_TOKEN from the environment or literal shell-profile exports. Settings shows Found/Missing and keeps the Create API token link.</p>
+<p>• Read Bitbucket mergeability checks to show verified Git conflicts. Bitbucket review and merge still open its website.</p>
+<p>• Restore cached pull request details immediately when returning to tabs; follow terminal folder changes and refresh in the background.</p>
+<p>• Fix GitHub check responses with empty links and recognize current Bitbucket SSH hosts and short commit hashes.</p>
+<p>• Improve text readability throughout settings and request panels.</p>
+<p>• Add an empty-tab bookmarks bar with favicons, folders and drag/drop sorting. Reveal hidden browser address bars from the top-edge control or Show URL Bar command.</p>
+<p>• Add Split browser right and Split browser below to Command-P&#x27;s Terminal category.</p>
+<p>• Defer persistent-terminal attachment until its initial viewport is usable, preventing a reproduced tiny-layout blank-screen failure.</p>
+<p>• Improve terminal tab shortcut routing and Escape dismissal of release notes.</p>
+<p>• Preserve native Codex launch directories and remove forced remote-workspace routing.</p>
+<p>Known limitation: automatic Codex conversation recovery after a laptop restart remains under investigation. The viewport correction does not recover processes lost at reboot. No new Codex hooks, remote mode, permission or authentication changes are included in this release. Self-managed GitLab/Bitbucket servers and native Bitbucket merges are not supported.</p>
+<p>346 scoped regression tests passed before the font-only correction; existing tab/browser/viewport checks also passed afterward; native compact light/dark and terminal replay fixtures were checked. Full user reboot recovery and updater installation/relaunch were not verified in this release.</p>]]></description>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build220/DevKitty-1.0.0-220.zip" length="19391339" type="application/octet-stream" sparkle:edSignature="M5lWI+KOhYbl3K++oH15B9Jt9G7MhrS4MZrmPKvs3VLuwEnyN5FdyddH1N4kgWqLUNQOQweCLQkG+ii4Lrs3Aw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: I4CgbKq/CRAMLWpjtbL8Bt+syY3Ld2VCeRrl/EXl2XYiMtM11KK3u21+OqKBSoUPRtS1VIbugd90CmRMzkZDDw==
-length: 2021
+edSignature: sSSyoPb9RMr3TnNxTfVd2fnPkaBh0z0vcO5PxlOy2xZnmznGwtt9sCH6e3vT2xROzpsIZaiVSF/bIjlS0uLpCw==
+length: 3350
 -->

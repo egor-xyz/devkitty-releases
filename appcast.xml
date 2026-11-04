@@ -5,25 +5,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Tue, 03 Nov 2026 16:02:59 +0200</pubDate>
-            <sparkle:version>240</sparkle:version>
+            <pubDate>Wed, 04 Nov 2026 15:03:38 +0200</pubDate>
+            <sparkle:version>271</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Devkitty 1.0.0 (build 240)</h2>
+            <description><![CDATA[<h2>Devkitty 1.0.0 (build 271)</h2>
 <ul>
-<li>Reduce repeated native layout measurement in terminal workspaces and sidebars, leaving more main-thread time for input.</li>
-<li>Use Claude conversation titles, including /rename, while preserving names set manually in Devkitty. Place pinned-tab unread dots in the close-button position.</li>
-<li>Show supported native Codex conversation titles, context readings and API-equivalent token-cost estimates. Add Copy Current Tab ID.</li>
-<li>Add independent interface font preferences, roomier Settings and Command-P panels, compact About, and hover details for active tabs.</li>
-<li>Keep disconnected persistent terminal tabs and recovery data. Include widget-fit, Claude subagent-progress and pull-request review-status improvements.</li>
+<li>Task Manager: see terminals and browser tabs with their usage, filter them, and jump to a tab.</li>
+<li>Workspace tab groups like Chrome: colors, rename, collapse and close a group.</li>
+<li>Attention: a moving border and an orange dot when an agent waits for you; blue dots for unread notifications. The progress bar hides while the border shows.</li>
+<li>Terminal right-click menu. Every menu command is also in Command-P.</li>
+<li>Terminal: Cmd-click relative file paths like clients/src/file.ts:5 (the file is checked first). Cmd-Shift-click opens files beside the terminal.</li>
+<li>Bookmarks bar: right-click menu, glass edit panel, folders with site icons, drag and drop with a drop line, more padding.</li>
+<li>Browser: one half-round tab shows and hides the URL bar. Downloads open in a new tab, so the page keeps its context.</li>
+<li>Tabs restore at launch. Codex resume picker and Claude/Codex recovery fixes.</li>
+<li>Tidier vertical tabs: selection, attention border, progress bar and title line up. New users start with an open sidebar and colored tabs.</li>
 </ul>
-<p>Known limits: persistent-terminal startup reconnect failures, native Codex force-quit/reboot restoration and long-sleep recovery are not fully resolved. Ended persistent sessions still require explicit tab closure. The performance improvement is measured for workspace layout; it does not establish that every intermittent typing stall is fixed.</p>
+<p>Known limits: bookmark drag and drop and the download tab were checked by automated tests, not yet by a full manual pass. Download tabs restore as blank tabs after relaunch. Persistent-terminal reconnect and long-sleep recovery are not fully resolved.</p>
 <p>Requires macOS 27 or later on Apple Silicon.</p>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build240/DevKitty-1.0.0-240.zip" length="19599028" type="application/octet-stream" sparkle:edSignature="IZXVo2+mfcsCMa5N26U1FvkHMaquseacS9kG2Mixm8qZs59OQ6erixzMGINsgNWBPVjw8fuhUzrpHJu7NpTXBA=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build271/DevKitty-1.0.0-271.zip" length="20047616" type="application/octet-stream" sparkle:edSignature="iT4inA2LWHc+TPrudkrU7YcLckVcFb4jCfBM34vwLXvbTKpyPybz3hGbFP1oGl/jqwOagIgovLh8yIWESm4ZAA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: tAlC2Tnkfp756yCKPiDjQuxpt4MIhhrrHQD4Z4/C5tZigG6/DDND7QpjYkGsFnAyjscBT511BrEBcpQgVryRCQ==
-length: 2311
+edSignature: EOA5rse6pcEW9uaEfxWzj9s/ANU9KEz4VHlnNDXVGDV/vHFJF5Evhy9BiI84//vyHkbfbVrSYiC9yPZWwM9bCg==
+length: 2554
 -->

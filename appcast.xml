@@ -5,20 +5,20 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Thu, 05 Nov 2026 09:41:34 +0200</pubDate>
-            <sparkle:version>280</sparkle:version>
+            <pubDate>Thu, 05 Nov 2026 13:47:49 +0200</pubDate>
+            <sparkle:version>281</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Devkitty 1.0.0 (build 280)</h2>
+            <description><![CDATA[<h2>Devkitty 1.0.0 (build 281)</h2>
 <ul>
-<li>Less memory for hidden terminals: when a terminal is hidden (another tab, a minimized window, Cmd-H or another Space), Devkitty frees its graphics memory. It is drawn again when you show it.</li>
-<li>Less CPU: workspaces with split panes no longer re-measure their layout on every screen update. In a test, idle CPU dropped from about 39% to 24%; your numbers can differ.</li>
+<li>Less memory in the background: when you switch to another app, Devkitty takes focus away from its terminals, so the cursor timer stops and the graphics chip can rest. In a test, memory with Devkitty in the background dropped from about 370 MB to 135 MB; your numbers can differ.</li>
+<li>Focus comes back to the same pane when you return to Devkitty.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build280/DevKitty-1.0.0-280.zip" length="20106852" type="application/octet-stream" sparkle:edSignature="kfw8fwcBjj6X4KmO3VxsSd3XV3gz8TiOBzaGU+Q4KA+J8dtL0+ZgetLhzhFuSWHmhA2PfGLgciUvfgCIW/OOCA=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build281/DevKitty-1.0.0-281.zip" length="20107256" type="application/octet-stream" sparkle:edSignature="c0I3BBtZkRUhBm1Zn51sn1k9GfMte68zFjcUgmIOQkCRQe+It4aM/DpBBAYXpptn+jBw37Pz8I4nGhs6op/TBg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: X+dPwnILAKR8wX1A9sFBbcfl52fedpc7393a2xaGhYT1reTfC/ZBZHTEVkcqcW4XElqUCzk0nKK/SsXFq/mVCA==
-length: 1546
+edSignature: FcMZ8RZOZ9qntZMoNAuQVi26SR01b3kJ9/GZssGD+wGYWwvzuMh5Pk2l/JLFjDboPJ8PJscOWGU1TbJJqD6GCQ==
+length: 1525
 -->

@@ -5,28 +5,20 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Wed, 04 Nov 2026 21:50:23 +0200</pubDate>
-            <sparkle:version>278</sparkle:version>
+            <pubDate>Thu, 05 Nov 2026 09:41:34 +0200</pubDate>
+            <sparkle:version>280</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Devkitty 1.0.0 (build 278)</h2>
+            <description><![CDATA[<h2>Devkitty 1.0.0 (build 280)</h2>
 <ul>
-<li>Tab groups: Cmd+1…9 counts only the tabs you can see. Tabs inside a collapsed group are skipped. Previous/next tab (Cmd+Shift+[ / ]) still reaches tabs in a collapsed group and opens it.</li>
-<li>Terminal: Command-click on any file opens the built-in preview (Markdown, text, images); folders open in Finder. A dot, comma or bracket after a path is ignored.</li>
-<li>Downloads open in their own tab, without a Back to Page button.</li>
-<li>Quieter when idle: fewer session saves and slower agent status checks while Devkitty is hidden. Claude Code no longer relaunches Devkitty every few seconds to report an unchanged status.</li>
-<li>Bookmarks bar shows full names and scrolls sideways when they do not fit.</li>
-<li>PR popover: GitHub-style comments (hidden HTML comments, collapsible details, alerts, task boxes, Show more), its own icon for each PR state, a robot icon and Autonomous badge for bot comments, and faster loading.</li>
-<li>Browser back and forward buttons have a larger hit area. Open in External Browser closes the built-in tab.</li>
-<li>Codex tabs no longer show the raw session ID as their name.</li>
-<li>The mouse pointer hides while you type in the terminal.</li>
+<li>Less memory for hidden terminals: when a terminal is hidden (another tab, a minimized window, Cmd-H or another Space), Devkitty frees its graphics memory. It is drawn again when you show it.</li>
+<li>Less CPU: workspaces with split panes no longer re-measure their layout on every screen update. In a test, idle CPU dropped from about 39% to 24%; your numbers can differ.</li>
 </ul>
-<p>Limitation: after a Force Quit or crash, up to half a second of title, folder or window-frame changes may not be restored.</p>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build278/DevKitty-1.0.0-278.zip" length="20098903" type="application/octet-stream" sparkle:edSignature="GIunPVyKM8n0LeVi7GmqDtZnsADFYcT1FIgqN0b7S3YoKTW3YJC9WoV8OF8Xxt7AdUQTlSB7Xtmc+1MBQV+xAA=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build280/DevKitty-1.0.0-280.zip" length="20106852" type="application/octet-stream" sparkle:edSignature="kfw8fwcBjj6X4KmO3VxsSd3XV3gz8TiOBzaGU+Q4KA+J8dtL0+ZgetLhzhFuSWHmhA2PfGLgciUvfgCIW/OOCA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: BgY19U4AOte9//3+KQztnWfSHBChifmpVVDy5hlN5KztgUlY8zPB1Z4o3IClwVTKj6BQpRwxsZSeymUoFG+eAw==
-length: 2489
+edSignature: X+dPwnILAKR8wX1A9sFBbcfl52fedpc7393a2xaGhYT1reTfC/ZBZHTEVkcqcW4XElqUCzk0nKK/SsXFq/mVCA==
+length: 1546
 -->

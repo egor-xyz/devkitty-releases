@@ -5,20 +5,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Thu, 05 Nov 2026 13:47:49 +0200</pubDate>
-            <sparkle:version>281</sparkle:version>
+            <pubDate>Sat, 07 Nov 2026 20:26:44 +0200</pubDate>
+            <sparkle:version>283</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Devkitty 1.0.0 (build 281)</h2>
+            <description><![CDATA[<h2>Devkitty 1.0.0 (build 283)</h2>
 <ul>
-<li>Less memory in the background: when you switch to another app, Devkitty takes focus away from its terminals, so the cursor timer stops and the graphics chip can rest. In a test, memory with Devkitty in the background dropped from about 370 MB to 135 MB; your numbers can differ.</li>
-<li>Focus comes back to the same pane when you return to Devkitty.</li>
+<li>GitHub Actions extension (off by default; turn it on in Settings &gt; Extensions): a toolbar button shows your pinned workflows in a panel under the tabs. See jobs and steps, re-run all or failed jobs, and get a red dot when a pinned run fails. On a GitHub workflow or run page in the built-in browser, click Add to Devkitty to pin it.</li>
+<li>Settings: a new About page, a Shortcuts page with on/off checkboxes, a hotkey recorder popup and filters, list-style editors for pinned workflows and browser rules, and Settings JSON with Save, Save As and autocomplete with descriptions.</li>
+<li>Terminal: an optional background image with opacity and fit; Warn Before Quit, tab close button options, scroll speed and an optional scroll bar. An app update never asks before it restarts.</li>
+<li>Workspace: choose where new tabs and new workspaces open (Top, After current, Bottom / Left, After current, Right).</li>
+<li>Browser: open http(s) terminal links in Devkitty, a list of hosts allowed over plain HTTP, Remove Website Data, more search engines, and an Open supported files in Devkitty switch.</li>
+<li>Browser: Import Browser Sessions copies only sign-in cookies from Chrome-type browsers, Firefox or Safari, so you stay signed in. macOS may ask for your Keychain password or Full Disk Access (Safari). Not yet tested with every real browser profile.</li>
+<li>Tab groups: opening a group slides its tabs out from under the group label; tabs sit closer together.</li>
+<li>Notifications settings show whether macOS allows alerts, with a Send Test button. Reset All Settings keeps your privacy choices.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build281/DevKitty-1.0.0-281.zip" length="20107256" type="application/octet-stream" sparkle:edSignature="c0I3BBtZkRUhBm1Zn51sn1k9GfMte68zFjcUgmIOQkCRQe+It4aM/DpBBAYXpptn+jBw37Pz8I4nGhs6op/TBg=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build283/DevKitty-1.0.0-283.zip" length="20570183" type="application/octet-stream" sparkle:edSignature="hN65g81eiUTlOTDIpChRsn4dsgBLJwyGQb6MPPSYEJWeqQWAAO6pn3wE7nfZimjfQK2i3Mm96fwUEITKXMD5Dg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: FcMZ8RZOZ9qntZMoNAuQVi26SR01b3kJ9/GZssGD+wGYWwvzuMh5Pk2l/JLFjDboPJ8PJscOWGU1TbJJqD6GCQ==
-length: 1525
+edSignature: 2mSGVeCxjjML7P8Petqbud+VIe2JJREy6bpWVkBuGrwlZKLfQBQ7sLYPWruAIamClvG5z+7psSY8sPUD6BVBAw==
+length: 2779
 -->

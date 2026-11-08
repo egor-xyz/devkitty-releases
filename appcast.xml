@@ -5,26 +5,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Sat, 07 Nov 2026 20:26:44 +0200</pubDate>
-            <sparkle:version>283</sparkle:version>
+            <pubDate>Sun, 08 Nov 2026 12:26:19 +0200</pubDate>
+            <sparkle:version>285</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Devkitty 1.0.0 (build 283)</h2>
+            <description><![CDATA[<h2>Devkitty 1.0.0 (build 285)</h2>
+<h3>Smoother tabs (build 285)</h3>
 <ul>
-<li>GitHub Actions extension (off by default; turn it on in Settings &gt; Extensions): a toolbar button shows your pinned workflows in a panel under the tabs. See jobs and steps, re-run all or failed jobs, and get a red dot when a pinned run fails. On a GitHub workflow or run page in the built-in browser, click Add to Devkitty to pin it.</li>
-<li>Settings: a new About page, a Shortcuts page with on/off checkboxes, a hotkey recorder popup and filters, list-style editors for pinned workflows and browser rules, and Settings JSON with Save, Save As and autocomplete with descriptions.</li>
-<li>Terminal: an optional background image with opacity and fit; Warn Before Quit, tab close button options, scroll speed and an optional scroll bar. An app update never asks before it restarts.</li>
-<li>Workspace: choose where new tabs and new workspaces open (Top, After current, Bottom / Left, After current, Right).</li>
-<li>Browser: open http(s) terminal links in Devkitty, a list of hosts allowed over plain HTTP, Remove Website Data, more search engines, and an Open supported files in Devkitty switch.</li>
-<li>Browser: Import Browser Sessions copies only sign-in cookies from Chrome-type browsers, Firefox or Safari, so you stay signed in. macOS may ask for your Keychain password or Full Disk Access (Safari). Not yet tested with every real browser profile.</li>
-<li>Tab groups: opening a group slides its tabs out from under the group label; tabs sit closer together.</li>
-<li>Notifications settings show whether macOS allows alerts, with a Send Test button. Reset All Settings keeps your privacy choices.</li>
+<li>New tabs grow in and closed tabs shrink out smoothly. Tabs next to them slide instead of jumping. Tab group chips change width smoothly.</li>
+</ul>
+<h3>Failed checks and group line fixes (build 284)</h3>
+<ul>
+<li>Pull request cards show the red failed icon when checks fail, for GitHub, GitLab and Bitbucket.</li>
+<li>Tab groups: the group color line hides while the attention snake runs around the group, so the two no longer overlap.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build283/DevKitty-1.0.0-283.zip" length="20570183" type="application/octet-stream" sparkle:edSignature="hN65g81eiUTlOTDIpChRsn4dsgBLJwyGQb6MPPSYEJWeqQWAAO6pn3wE7nfZimjfQK2i3Mm96fwUEITKXMD5Dg=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build285/DevKitty-1.0.0-285.zip" length="20434107" type="application/octet-stream" sparkle:edSignature="Vf3Gi700KnKuYK7nnjNkaSZe/3Fu5ouuMVY5r6nIurePPYA/zpxnOFXMnVYxoEBmkqUHbLo1JDgslNknEcoEAA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 2mSGVeCxjjML7P8Petqbud+VIe2JJREy6bpWVkBuGrwlZKLfQBQ7sLYPWruAIamClvG5z+7psSY8sPUD6BVBAw==
-length: 2779
+edSignature: A/ZRmDSwBpkw+d8vT0ManGozOQAgcneiXzzqEbBf9QCuxSh9pXTboKUSKthMyW9ScCvfma05c/geWSXXB0xYAw==
+length: 1645
 -->

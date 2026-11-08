@@ -5,25 +5,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Sun, 08 Nov 2026 12:26:19 +0200</pubDate>
-            <sparkle:version>285</sparkle:version>
+            <pubDate>Sun, 08 Nov 2026 15:28:19 +0200</pubDate>
+            <sparkle:version>286</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Devkitty 1.0.0 (build 285)</h2>
-<h3>Smoother tabs (build 285)</h3>
+            <description><![CDATA[<h2>Browser web features (build 286)</h2>
 <ul>
-<li>New tabs grow in and closed tabs shrink out smoothly. Tabs next to them slide instead of jumping. Tab group chips change width smoothly.</li>
-</ul>
-<h3>Failed checks and group line fixes (build 284)</h3>
-<ul>
-<li>Pull request cards show the red failed icon when checks fail, for GitHub, GitLab and Bitbucket.</li>
-<li>Tab groups: the group color line hides while the attention snake runs around the group, so the two no longer overlap.</li>
+<li>Picture in picture for videos in the browser. Videos can also go full screen.</li>
+<li>Real alert, confirm and prompt dialogs, with a Don't allow more dialogs box so a page cannot keep asking.</li>
+<li>Spell check while you type in web pages.</li>
+<li>Pinch to zoom, and Cmd+ / Cmd- / Cmd-0 to zoom the page. Pages that use these keys still get them first. Limitation: zoom is not remembered per site.</li>
+<li>Inspect Element in the right-click menu.</li>
+<li>Websites can ask for your location; macOS asks you first.</li>
+<li>The agent working bar and the GitHub Actions spinner now animate on Core Animation and pause when the window is hidden, which uses much less CPU.</li>
+<li>Terminals follow the refresh rate of the display their window is on.</li>
+<li>GitHub Actions: the Add to Devkitty button sits in GitHub's own button row and is hidden when the workflow is already pinned.</li>
+<li>GitHub Actions: a run shows the in-progress icon while any of its jobs runs, not waiting.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build285/DevKitty-1.0.0-285.zip" length="20434107" type="application/octet-stream" sparkle:edSignature="Vf3Gi700KnKuYK7nnjNkaSZe/3Fu5ouuMVY5r6nIurePPYA/zpxnOFXMnVYxoEBmkqUHbLo1JDgslNknEcoEAA=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build286/DevKitty-1.0.0-286.zip" length="20612245" type="application/octet-stream" sparkle:edSignature="UG5ruhjkbyRJsFvF8AoEoMaO0TY7emKO7xcAoR5IefGHnyu2PkQBdmPImZ0agkcLfNkr2WlTeunuWibeW/8NAw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: A/ZRmDSwBpkw+d8vT0ManGozOQAgcneiXzzqEbBf9QCuxSh9pXTboKUSKthMyW9ScCvfma05c/geWSXXB0xYAw==
-length: 1645
+edSignature: 54z+eX0fcbEWk9hpoxtEyKJPEzm9TOcrJFW3VeQWASpzEpC75ofnqmdb0bOTgSDcSj5TYxGcxr2ptOmeENmPBw==
+length: 2166
 -->

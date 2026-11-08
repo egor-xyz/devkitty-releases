@@ -5,28 +5,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Sun, 08 Nov 2026 15:28:19 +0200</pubDate>
-            <sparkle:version>286</sparkle:version>
+            <pubDate>Mon, 09 Nov 2026 00:05:34 +0200</pubDate>
+            <sparkle:version>288</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Browser web features (build 286)</h2>
+            <description><![CDATA[<h2>Restore fix, bookmark popover and link target (build 288)</h2>
 <ul>
-<li>Picture in picture for videos in the browser. Videos can also go full screen.</li>
-<li>Real alert, confirm and prompt dialogs, with a Don't allow more dialogs box so a page cannot keep asking.</li>
-<li>Spell check while you type in web pages.</li>
-<li>Pinch to zoom, and Cmd+ / Cmd- / Cmd-0 to zoom the page. Pages that use these keys still get them first. Limitation: zoom is not remembered per site.</li>
-<li>Inspect Element in the right-click menu.</li>
-<li>Websites can ask for your location; macOS asks you first.</li>
-<li>The agent working bar and the GitHub Actions spinner now animate on Core Animation and pause when the window is hidden, which uses much less CPU.</li>
-<li>Terminals follow the refresh rate of the display their window is on.</li>
-<li>GitHub Actions: the Add to Devkitty button sits in GitHub's own button row and is hidden when the workflow is already pinned.</li>
-<li>GitHub Actions: a run shows the in-progress icon while any of its jobs runs, not waiting.</li>
+<li>Restore: after a Force Quit, each terminal tab resumes its own Claude conversation.</li>
+<li>Background Claude daemon workers are no longer mistaken for a tab's agent.</li>
+<li>When two tabs claim one conversation, Devkitty shows an alert instead of guessing.</li>
+<li>Links: one Tab/Split setting now controls where links open from the terminal, the PR popover, Actions and CLI links.</li>
+<li>Browser: right-click a link to bookmark it in a small popover (Bookmark Link... / Add/Edit Bookmark...).</li>
+<li>Gauge: the details card shows the full reset countdown, for example 1d 2h 40m.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build286/DevKitty-1.0.0-286.zip" length="20612245" type="application/octet-stream" sparkle:edSignature="UG5ruhjkbyRJsFvF8AoEoMaO0TY7emKO7xcAoR5IefGHnyu2PkQBdmPImZ0agkcLfNkr2WlTeunuWibeW/8NAw=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build288/DevKitty-1.0.0-288.zip" length="20643335" type="application/octet-stream" sparkle:edSignature="20FUv8zbiQ8RVW0/vudBDldXNdCABOJ9/q8rJlJMedZltk7bQU+6f0FXO/QzbpI+PZ8BPwFmwJ1qrJ+Ky4wJAA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 54z+eX0fcbEWk9hpoxtEyKJPEzm9TOcrJFW3VeQWASpzEpC75ofnqmdb0bOTgSDcSj5TYxGcxr2ptOmeENmPBw==
-length: 2166
+edSignature: TZmxqWxLUJnY7sHa89l3NOatVn86tJxAH9jiyy3tPZzeYOMqxNCfmOzZdqE6fxwQgQYHYkIomtUumxV99OEPDA==
+length: 1793
 -->

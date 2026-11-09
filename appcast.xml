@@ -5,24 +5,46 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Mon, 09 Nov 2026 00:05:34 +0200</pubDate>
-            <sparkle:version>288</sparkle:version>
+            <pubDate>Mon, 09 Nov 2026 17:35:45 +0200</pubDate>
+            <sparkle:version>293</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Restore fix, bookmark popover and link target (build 288)</h2>
+            <description><![CDATA[<h2>Devkitty 1.0.0 (build 293)</h2>
+<p>Changes since build 288.</p>
+<h3>Build 293: Bookmark folder fixes</h3>
 <ul>
-<li>Restore: after a Force Quit, each terminal tab resumes its own Claude conversation.</li>
-<li>Background Claude daemon workers are no longer mistaken for a tab's agent.</li>
-<li>When two tabs claim one conversation, Devkitty shows an alert instead of guessing.</li>
-<li>Links: one Tab/Split setting now controls where links open from the terminal, the PR popover, Actions and CLI links.</li>
-<li>Browser: right-click a link to bookmark it in a small popover (Bookmark Link... / Add/Edit Bookmark...).</li>
-<li>Gauge: the details card shows the full reset countdown, for example 1d 2h 40m.</li>
+<li>The bookmark folder dropdown no longer leaves extra space under the last row.</li>
+<li>Delete on a bookmark folder now removes the folder with all its bookmarks and subfolders, and asks first when it holds bookmarks.</li>
+</ul>
+<h3>Build 292: Glass bookmark folders in the browser</h3>
+<ul>
+<li>Bookmark folders open as a glass dropdown inside the browser, under the folder, never over the sidebar.</li>
+<li>The bookmarks bar follows the sunset theme.</li>
+<li>Edit Bookmark and Bookmark Manager use the system glass look instead of navy.</li>
+<li>Faster, smoother folder opening: folder lists are cached and favicons show at once.</li>
+</ul>
+<h3>Build 291: HTTPS by default and bookmark folders</h3>
+<ul>
+<li>The browser opens plain http:// pages over https unless the host is in Settings &rsaquo; Browser &rsaquo; HTTP Hosts (typed addresses, links and redirects such as email tracking links). A site with no working https, or one that redirects back to http, shows a short message pointing to HTTP Hosts.</li>
+<li>Browser import builds a real folder tree under &ldquo;Imported from &lt;Browser&gt;&rdquo; in the browser's order, and moves bookmarks you already had into it. Re-import changes nothing.</li>
+<li>Folder pickers show the folder tree (full path when closed, &ldquo;Bookmarks Bar (top level)&rdquo; root), and the bookmark right-click menu has Move To.</li>
+</ul>
+<h3>Build 290: Chrome account bookmarks</h3>
+<ul>
+<li>Browser import now finds Chrome bookmarks of a signed-in Google account (AccountBookmarks). Before, they showed as &ldquo;Not found&rdquo;.</li>
+</ul>
+<h3>Build 289: Non-Latin shortcuts and browser import</h3>
+<ul>
+<li>Cmd+V, Cmd+C, Cmd+W and other Cmd shortcuts now work on Russian, Ukrainian, Hebrew and other non-Latin keyboard layouts. Limitation: a Ghostty config binding written as super+&lt;Cyrillic letter&gt; now needs the Latin letter.</li>
+<li>Browser import lets you pick Sign-ins, Bookmarks and History per browser (Chrome-family, Firefox, Safari).</li>
+<li>Bookmarks are imported into an &ldquo;Imported from &lt;Browser&gt;&rdquo; folder. History keeps the newest 500 pages.</li>
+<li>Sign-ins start unchecked, so nothing sensitive is copied unless you choose it. Safari import needs Full Disk Access.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build288/DevKitty-1.0.0-288.zip" length="20643335" type="application/octet-stream" sparkle:edSignature="20FUv8zbiQ8RVW0/vudBDldXNdCABOJ9/q8rJlJMedZltk7bQU+6f0FXO/QzbpI+PZ8BPwFmwJ1qrJ+Ky4wJAA=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build293/DevKitty-1.0.0-293.zip" length="20729001" type="application/octet-stream" sparkle:edSignature="ttRzaMJgLwzUOT7PewR/XJAEi/eg/jC9Gzn37gAk/7EjRXJHg4BvfuWSRCKQxTrR0Ml9NdH0Q6sVKRbq8rycBA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: TZmxqWxLUJnY7sHa89l3NOatVn86tJxAH9jiyy3tPZzeYOMqxNCfmOzZdqE6fxwQgQYHYkIomtUumxV99OEPDA==
-length: 1793
+edSignature: TjJB9wH1ru2JdqNagWT6fTAtKurmYBKHWye5zM0CUwusdBOVnRyQFgU329TR1RNbe7xo9FGjh4KTHqq/bYJCCg==
+length: 3496
 -->

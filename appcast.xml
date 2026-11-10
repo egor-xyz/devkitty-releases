@@ -5,46 +5,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Tue, 10 Nov 2026 07:12:13 +0200</pubDate>
-            <sparkle:version>299</sparkle:version>
+            <pubDate>Tue, 10 Nov 2026 12:10:36 +0200</pubDate>
+            <sparkle:version>300</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Devkitty 1.0.0 (build 299)</h2>
-<p>Changes since build 293.</p>
-<h3>Build 299: No more session text in new terminals</h3>
+            <description><![CDATA[<h2>Devkitty 1.0.0 (build 300)</h2>
+<p>Changes since build 299.</p>
+<h3>Build 300: Middle-click close, all editors found, website location</h3>
 <ul>
-<li>A new terminal no longer shows a short &quot;session created&quot; line before the prompt.</li>
+<li>Middle-click a tab or a workspace to close it, like in other macOS apps. It asks first in the same cases as the small x button.</li>
+<li>Settings &gt; General &gt; Editor finds all installed code editors, including Zed, Antigravity, Windsurf, Sublime Text and JetBrains IDEs.</li>
+<li>The Browser list shows only real browsers, once each. The built-in choice is now called Built-in (Devkitty) and shows the Devkitty icon.</li>
+<li>Double-click the empty part of the sidebar to open a new terminal.</li>
+<li>The mouse Back and Forward side buttons work in the built-in browser and in HTML previews.</li>
+<li>Website location: the built-in browser asks once per site. After you click Allow, Devkitty asks macOS for Location access and gives the site your location. Settings &gt; Browser &gt; Location shows the macOS access and lets you forget a site&#x27;s answer.</li>
+<li>Cmd+P opens a typed web address (like localhost:3000 or github.com) and suggests sites from Devkitty bookmarks and history. Turn it off in Settings &gt; Browser &gt; Links.</li>
+<li>claude rc, claude remote-control and other Claude subcommands work in Devkitty terminals again.</li>
+<li>The Pull Requests toolbar works in jj (Jujutsu) repositories: it finds the nearest bookmark that is not main.</li>
 </ul>
-<h3>Build 298: New terminals open without a flash</h3>
-<ul>
-<li>A new terminal shows its own background at once and starts in the same moment, instead of showing the window background first.</li>
-<li>The &quot;Last login&quot; line is no longer printed when a terminal starts.</li>
-<li>New persistent terminals skip one background check, so they start a little sooner.</li>
-</ul>
-<h3>Build 297: Split panes stop blinking</h3>
-<ul>
-<li>Adding a split pane (Cmd-D) or closing one no longer makes the other panes blink.</li>
-</ul>
-<h3>Build 296: Instant terminal, automatic Picture in Picture</h3>
-<ul>
-<li>Cmd-T and Cmd-D open a terminal at once. A fast second press swaps it for a browser in the same place.</li>
-<li>Videos playing with sound move into Picture in Picture when you leave the tab and come back when you return. A Settings switch (Browser) turns it off.</li>
-</ul>
-<h3>Build 295: Browser stays visible after Cmd-D</h3>
-<ul>
-<li>The browser page no longer goes blank after Cmd-D splits a browser tab.</li>
-</ul>
-<h3>Build 294: Pointer comes back after video</h3>
-<ul>
-<li>The mouse pointer comes back after a video or web page hides it, when you leave the page, switch tabs or split.</li>
-<li>&quot;Hide pointer while typing&quot; now only hides the pointer over the terminal you type in.</li>
-</ul>
-<p>Known issue: the pointer can still stay hidden over a video in some cases. Diagnostics were added to find it.</p>
+<p>Known issue: claude rc makes the cursor and its status line blink. This also happens in Ghostty 1.4.0, the terminal engine Devkitty uses.</p>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build299/DevKitty-1.0.0-299.zip" length="20611187" type="application/octet-stream" sparkle:edSignature="WipVR+NwV32EHqGa2t1PcOsCt889dOhISzBvqipdeQ7axDo2SMxxjDtI0GjkP7pKdoOUr/7lmCi2WP0u2BhgCg=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build300/DevKitty-1.0.0-300.zip" length="20690993" type="application/octet-stream" sparkle:edSignature="ZSIHm6Cq0eA2ig+ygu2Lv2xxj8o0wBoWONHAMmeIWpbrbcO3LFRnJ4GblPfgZRIIg9IBQZLkXW22QFMDhSczDw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 9Oypaw1BLg3rtRiHMNIcTVGXCu0Hsib4MlSfwnVVumLbpjpL43BIsv+q6lZbKXB1yGo8DukOt8qJ3ts9wL7aCg==
-length: 2784
+edSignature: zfu4/psuwrufc/EPnCxFf0lE4SIFh/kLz8pHQ4sI4wpdDGNtTSd2osKAdBXi/52nOoQf1YAOpxrSgU4PN2XbAw==
+length: 2697
 -->

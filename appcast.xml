@@ -5,30 +5,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Tue, 10 Nov 2026 12:10:36 +0200</pubDate>
-            <sparkle:version>300</sparkle:version>
+            <pubDate>Tue, 10 Nov 2026 18:25:37 +0200</pubDate>
+            <sparkle:version>304</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Devkitty 1.0.0 (build 300)</h2>
-<p>Changes since build 299.</p>
-<h3>Build 300: Middle-click close, all editors found, website location</h3>
+            <description><![CDATA[<h2>Devkitty 1.0.0 (build 304)</h2>
+<p>Changes since build 300.</p>
+<h3>Build 304: Terminal search, standard shortcuts, quieter reconnects</h3>
 <ul>
-<li>Middle-click a tab or a workspace to close it, like in other macOS apps. It asks first in the same cases as the small x button.</li>
-<li>Settings &gt; General &gt; Editor finds all installed code editors, including Zed, Antigravity, Windsurf, Sublime Text and JetBrains IDEs.</li>
-<li>The Browser list shows only real browsers, once each. The built-in choice is now called Built-in (Devkitty) and shows the Devkitty icon.</li>
-<li>Double-click the empty part of the sidebar to open a new terminal.</li>
-<li>The mouse Back and Forward side buttons work in the built-in browser and in HTML previews.</li>
-<li>Website location: the built-in browser asks once per site. After you click Allow, Devkitty asks macOS for Location access and gives the site your location. Settings &gt; Browser &gt; Location shows the macOS access and lets you forget a site&#x27;s answer.</li>
-<li>Cmd+P opens a typed web address (like localhost:3000 or github.com) and suggests sites from Devkitty bookmarks and history. Turn it off in Settings &gt; Browser &gt; Links.</li>
-<li>claude rc, claude remote-control and other Claude subcommands work in Devkitty terminals again.</li>
-<li>The Pull Requests toolbar works in jj (Jujutsu) repositories: it finds the nearest bookmark that is not main.</li>
+<li>Cmd+F opens a search bar in the focused terminal, with a match count and next/previous buttons (Return, Shift+Return, Cmd+G, Shift+Cmd+G). Esc closes it. The bar follows Sunset and sits above widgets.</li>
+<li>Ctrl+Tab and Ctrl+Shift+Tab switch workspaces. New standard shortcuts: Cmd+Opt+Up/Down move pane focus, Ctrl+Cmd+= equalizes panes, Ctrl+Cmd+arrows resize panes, Ctrl+Cmd+F and Cmd+Return go full screen, Cmd+9 jumps to the last workspace.</li>
+<li>When a terminal&#x27;s connection ends, the tab closes if its shell ended, and a live session reconnects quietly. The old &quot;connection ended&quot; message is gone.</li>
+<li>Sidebar sections and separators are removed. Existing separators are removed on update, and tab order is kept.</li>
+<li>Double-click the empty part of the expanded sidebar to open a new terminal. Before, this worked only in the icon-only sidebar.</li>
+<li>The sidebar selection highlight stays on its row after moves and reorders.</li>
+<li>The tab strip no longer moves up when many tabs overflow and the Mac shows classic scroll bars.</li>
+<li>The collapsed right sidebar now defaults to Hidden.</li>
+<li>Browser tabs no longer flash white on launch in dark mode or Sunset.</li>
 </ul>
-<p>Known issue: claude rc makes the cursor and its status line blink. This also happens in Ghostty 1.4.0, the terminal engine Devkitty uses.</p>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build300/DevKitty-1.0.0-300.zip" length="20690993" type="application/octet-stream" sparkle:edSignature="ZSIHm6Cq0eA2ig+ygu2Lv2xxj8o0wBoWONHAMmeIWpbrbcO3LFRnJ4GblPfgZRIIg9IBQZLkXW22QFMDhSczDw=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build304/DevKitty-1.0.0-304.zip" length="20701429" type="application/octet-stream" sparkle:edSignature="Jf0pHZBtKFr/UZGbWMm5gogk6pibDJmUzH8e4Ex8JvTMBtSBUhNEjc1hBTqfdscUfnBX/Kp9GMfPuofaUFSeAQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: zfu4/psuwrufc/EPnCxFf0lE4SIFh/kLz8pHQ4sI4wpdDGNtTSd2osKAdBXi/52nOoQf1YAOpxrSgU4PN2XbAw==
-length: 2697
+edSignature: E8KETxfKVCWoCRm7kjbE5Tghj773lHdUORGTmKClv7QnaFuhqXD/7HwFyaVbpBqNtV+DisqQLVCNNkWhFypRDQ==
+length: 2492
 -->

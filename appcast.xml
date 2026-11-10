@@ -5,46 +5,46 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Mon, 09 Nov 2026 17:35:45 +0200</pubDate>
-            <sparkle:version>293</sparkle:version>
+            <pubDate>Tue, 10 Nov 2026 07:12:13 +0200</pubDate>
+            <sparkle:version>299</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Devkitty 1.0.0 (build 293)</h2>
-<p>Changes since build 288.</p>
-<h3>Build 293: Bookmark folder fixes</h3>
+            <description><![CDATA[<h2>Devkitty 1.0.0 (build 299)</h2>
+<p>Changes since build 293.</p>
+<h3>Build 299: No more session text in new terminals</h3>
 <ul>
-<li>The bookmark folder dropdown no longer leaves extra space under the last row.</li>
-<li>Delete on a bookmark folder now removes the folder with all its bookmarks and subfolders, and asks first when it holds bookmarks.</li>
+<li>A new terminal no longer shows a short &quot;session created&quot; line before the prompt.</li>
 </ul>
-<h3>Build 292: Glass bookmark folders in the browser</h3>
+<h3>Build 298: New terminals open without a flash</h3>
 <ul>
-<li>Bookmark folders open as a glass dropdown inside the browser, under the folder, never over the sidebar.</li>
-<li>The bookmarks bar follows the sunset theme.</li>
-<li>Edit Bookmark and Bookmark Manager use the system glass look instead of navy.</li>
-<li>Faster, smoother folder opening: folder lists are cached and favicons show at once.</li>
+<li>A new terminal shows its own background at once and starts in the same moment, instead of showing the window background first.</li>
+<li>The &quot;Last login&quot; line is no longer printed when a terminal starts.</li>
+<li>New persistent terminals skip one background check, so they start a little sooner.</li>
 </ul>
-<h3>Build 291: HTTPS by default and bookmark folders</h3>
+<h3>Build 297: Split panes stop blinking</h3>
 <ul>
-<li>The browser opens plain http:// pages over https unless the host is in Settings &rsaquo; Browser &rsaquo; HTTP Hosts (typed addresses, links and redirects such as email tracking links). A site with no working https, or one that redirects back to http, shows a short message pointing to HTTP Hosts.</li>
-<li>Browser import builds a real folder tree under &ldquo;Imported from &lt;Browser&gt;&rdquo; in the browser's order, and moves bookmarks you already had into it. Re-import changes nothing.</li>
-<li>Folder pickers show the folder tree (full path when closed, &ldquo;Bookmarks Bar (top level)&rdquo; root), and the bookmark right-click menu has Move To.</li>
+<li>Adding a split pane (Cmd-D) or closing one no longer makes the other panes blink.</li>
 </ul>
-<h3>Build 290: Chrome account bookmarks</h3>
+<h3>Build 296: Instant terminal, automatic Picture in Picture</h3>
 <ul>
-<li>Browser import now finds Chrome bookmarks of a signed-in Google account (AccountBookmarks). Before, they showed as &ldquo;Not found&rdquo;.</li>
+<li>Cmd-T and Cmd-D open a terminal at once. A fast second press swaps it for a browser in the same place.</li>
+<li>Videos playing with sound move into Picture in Picture when you leave the tab and come back when you return. A Settings switch (Browser) turns it off.</li>
 </ul>
-<h3>Build 289: Non-Latin shortcuts and browser import</h3>
+<h3>Build 295: Browser stays visible after Cmd-D</h3>
 <ul>
-<li>Cmd+V, Cmd+C, Cmd+W and other Cmd shortcuts now work on Russian, Ukrainian, Hebrew and other non-Latin keyboard layouts. Limitation: a Ghostty config binding written as super+&lt;Cyrillic letter&gt; now needs the Latin letter.</li>
-<li>Browser import lets you pick Sign-ins, Bookmarks and History per browser (Chrome-family, Firefox, Safari).</li>
-<li>Bookmarks are imported into an &ldquo;Imported from &lt;Browser&gt;&rdquo; folder. History keeps the newest 500 pages.</li>
-<li>Sign-ins start unchecked, so nothing sensitive is copied unless you choose it. Safari import needs Full Disk Access.</li>
+<li>The browser page no longer goes blank after Cmd-D splits a browser tab.</li>
 </ul>
+<h3>Build 294: Pointer comes back after video</h3>
+<ul>
+<li>The mouse pointer comes back after a video or web page hides it, when you leave the page, switch tabs or split.</li>
+<li>&quot;Hide pointer while typing&quot; now only hides the pointer over the terminal you type in.</li>
+</ul>
+<p>Known issue: the pointer can still stay hidden over a video in some cases. Diagnostics were added to find it.</p>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build293/DevKitty-1.0.0-293.zip" length="20729001" type="application/octet-stream" sparkle:edSignature="ttRzaMJgLwzUOT7PewR/XJAEi/eg/jC9Gzn37gAk/7EjRXJHg4BvfuWSRCKQxTrR0Ml9NdH0Q6sVKRbq8rycBA=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build299/DevKitty-1.0.0-299.zip" length="20611187" type="application/octet-stream" sparkle:edSignature="WipVR+NwV32EHqGa2t1PcOsCt889dOhISzBvqipdeQ7axDo2SMxxjDtI0GjkP7pKdoOUr/7lmCi2WP0u2BhgCg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: TjJB9wH1ru2JdqNagWT6fTAtKurmYBKHWye5zM0CUwusdBOVnRyQFgU329TR1RNbe7xo9FGjh4KTHqq/bYJCCg==
-length: 3496
+edSignature: 9Oypaw1BLg3rtRiHMNIcTVGXCu0Hsib4MlSfwnVVumLbpjpL43BIsv+q6lZbKXB1yGo8DukOt8qJ3ts9wL7aCg==
+length: 2784
 -->

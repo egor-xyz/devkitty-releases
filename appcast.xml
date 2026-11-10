@@ -5,29 +5,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Tue, 10 Nov 2026 18:25:37 +0200</pubDate>
-            <sparkle:version>304</sparkle:version>
+            <pubDate>Wed, 11 Nov 2026 00:49:27 +0200</pubDate>
+            <sparkle:version>305</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Devkitty 1.0.0 (build 304)</h2>
-<p>Changes since build 300.</p>
-<h3>Build 304: Terminal search, standard shortcuts, quieter reconnects</h3>
+            <description><![CDATA[<h2>Devkitty 1.0.0 (build 305)</h2>
+<p>Changes since build 304.</p>
+<h3>Build 305: Smarter browser suggestions</h3>
 <ul>
-<li>Cmd+F opens a search bar in the focused terminal, with a match count and next/previous buttons (Return, Shift+Return, Cmd+G, Shift+Cmd+G). Esc closes it. The bar follows Sunset and sits above widgets.</li>
-<li>Ctrl+Tab and Ctrl+Shift+Tab switch workspaces. New standard shortcuts: Cmd+Opt+Up/Down move pane focus, Ctrl+Cmd+= equalizes panes, Ctrl+Cmd+arrows resize panes, Ctrl+Cmd+F and Cmd+Return go full screen, Cmd+9 jumps to the last workspace.</li>
-<li>When a terminal&#x27;s connection ends, the tab closes if its shell ended, and a live session reconnects quietly. The old &quot;connection ended&quot; message is gone.</li>
-<li>Sidebar sections and separators are removed. Existing separators are removed on update, and tab order is kept.</li>
-<li>Double-click the empty part of the expanded sidebar to open a new terminal. Before, this worked only in the icon-only sidebar.</li>
-<li>The sidebar selection highlight stays on its row after moves and reorders.</li>
-<li>The tab strip no longer moves up when many tabs overflow and the Mac shows classic scroll bars.</li>
-<li>The collapsed right sidebar now defaults to Hidden.</li>
-<li>Browser tabs no longer flash white on launch in dark mode or Sunset.</li>
+<li>Address bar and Cmd+P suggestions are sorted like Firefox and Chrome: recent and frequent sites first, with a small boost for bookmarks. Bookmarks no longer always come first.</li>
+<li>Typing a site&#x27;s exact address always puts that site first.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build304/DevKitty-1.0.0-304.zip" length="20701429" type="application/octet-stream" sparkle:edSignature="Jf0pHZBtKFr/UZGbWMm5gogk6pibDJmUzH8e4Ex8JvTMBtSBUhNEjc1hBTqfdscUfnBX/Kp9GMfPuofaUFSeAQ=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build305/DevKitty-1.0.0-305.zip" length="20714074" type="application/octet-stream" sparkle:edSignature="oyNeotEImV/dNKiPwvkhlYfpCiLM/4Zox9dmPOShacMapxK98VdxhVZbgdzhshXSoq7Dj5tEp4S2Ktvn8lBvCQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: E8KETxfKVCWoCRm7kjbE5Tghj773lHdUORGTmKClv7QnaFuhqXD/7HwFyaVbpBqNtV+DisqQLVCNNkWhFypRDQ==
-length: 2492
+edSignature: zRxU10OOwH2bJKBA8Kzhe8vbHYySJ7e4s7/fF5nVlnnd3md269EgYhzS/8hzw6rap4OLrkcP/S9ps1y/1EfxDg==
+length: 1503
 -->

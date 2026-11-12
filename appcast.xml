@@ -5,22 +5,36 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Wed, 11 Nov 2026 00:49:27 +0200</pubDate>
-            <sparkle:version>305</sparkle:version>
+            <pubDate>Thu, 12 Nov 2026 12:17:28 +0200</pubDate>
+            <sparkle:version>332</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Devkitty 1.0.0 (build 305)</h2>
-<p>Changes since build 304.</p>
-<h3>Build 305: Smarter browser suggestions</h3>
+            <description><![CDATA[<h2>Devkitty 1.0.0 (build 332)</h2>
+<h3>Quick AI</h3>
 <ul>
-<li>Address bar and Cmd+P suggestions are sorted like Firefox and Chrome: recent and frequent sites first, with a small boost for bookmarks. Bookmarks no longer always come first.</li>
-<li>Typing a site&#x27;s exact address always puts that site first.</li>
+<li>Quick AI (Cmd+J, or the sparkles toolbar button) chats with your own Claude, Codex or Cursor login.</li>
+<li>Two tabs: Chat (one chat in a folder you pick) and Workspace (one chat per workspace, with its terminal, browser, folder and branch as context).</li>
+<li>Type / for commands and skills, $ for Codex skills, @ to attach context.</li>
+<li>Start a message with ! to send a command to the AI exactly as you typed it. The input turns pink.</li>
+<li>While the AI replies, press Return to queue your next message. Queued messages go out one by one; Stop puts them back in the input.</li>
+<li>Up arrow brings back earlier messages. Saved chats are in History.</li>
+<li>Tool rows open to show the full command and result. Your account and plan show in the footer.</li>
+</ul>
+<h3>Also new</h3>
+<ul>
+<li>New icon picker with every SF Symbol and emoji. Cmd+P: Change active tab icon…</li>
+<li>Tooltips show hotkeys, for example New chat (⌘N).</li>
+<li>The workspace hover card shows the full workspace name and wraps long tab names.</li>
+<li>A Claude chat from a deleted worktree resumes from the repo folder.</li>
+<li>Dock badge for unread notifications. Drag pinned tabs to reorder them.</li>
+<li>Cmd+P Browser category opens pages from your browser history. On/off settings have a switch in Cmd+P.</li>
+<li>Markdown preview draws Mermaid diagrams. Updates are checked every hour.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build305/DevKitty-1.0.0-305.zip" length="20714074" type="application/octet-stream" sparkle:edSignature="oyNeotEImV/dNKiPwvkhlYfpCiLM/4Zox9dmPOShacMapxK98VdxhVZbgdzhshXSoq7Dj5tEp4S2Ktvn8lBvCQ=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build332/DevKitty-1.0.0-332.zip" length="22466123" type="application/octet-stream" sparkle:edSignature="ByemZxUPu3lRle/da0JbxDxx3e6T68JBQLMj2QvpsY/vdlSmOMLLVgESq/ggiOPlbEttYs/FnDlf2gxqX5ieAg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: zRxU10OOwH2bJKBA8Kzhe8vbHYySJ7e4s7/fF5nVlnnd3md269EgYhzS/8hzw6rap4OLrkcP/S9ps1y/1EfxDg==
-length: 1503
+edSignature: pFSP49w2k6ULt1Nd2YhQXZ5zSUchLcmYmezExdTGwWvpwZElz7XXkuumiRjIlAHU3AHlcY0KzUOlXLbvKNaPAA==
+length: 2575
 -->

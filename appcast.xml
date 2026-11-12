@@ -5,36 +5,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Thu, 12 Nov 2026 12:17:28 +0200</pubDate>
-            <sparkle:version>332</sparkle:version>
+            <pubDate>Thu, 12 Nov 2026 19:38:51 +0200</pubDate>
+            <sparkle:version>336</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Devkitty 1.0.0 (build 332)</h2>
+            <description><![CDATA[<h2>Devkitty 1.0.0 (build 336)</h2>
+<h3>Mute browser tabs</h3>
+<ul>
+<li>Mute or unmute a browser tab from its right-click menu, from Cmd+P (Mute tab), or with a click on its speaker icon.</li>
+<li>A tab that plays sound shows a speaker in place of its icon. A muted tab shows a red crossed-out speaker. Workspaces show the same icons for their tabs.</li>
+<li>A muted tab stays muted after you close and reopen it, and after a restart.</li>
+</ul>
+<h3>Google Meet</h3>
+<ul>
+<li>Meet gets its microphone and camera back when another page stops using them.</li>
+<li>The floating Meet window has a slim header, so its buttons no longer cover the call.</li>
+</ul>
 <h3>Quick AI</h3>
 <ul>
-<li>Quick AI (Cmd+J, or the sparkles toolbar button) chats with your own Claude, Codex or Cursor login.</li>
-<li>Two tabs: Chat (one chat in a folder you pick) and Workspace (one chat per workspace, with its terminal, browser, folder and branch as context).</li>
-<li>Type / for commands and skills, $ for Codex skills, @ to attach context.</li>
-<li>Start a message with ! to send a command to the AI exactly as you typed it. The input turns pink.</li>
-<li>While the AI replies, press Return to queue your next message. Queued messages go out one by one; Stop puts them back in the input.</li>
-<li>Up arrow brings back earlier messages. Saved chats are in History.</li>
-<li>Tool rows open to show the full command and result. Your account and plan show in the footer.</li>
-</ul>
-<h3>Also new</h3>
-<ul>
-<li>New icon picker with every SF Symbol and emoji. Cmd+P: Change active tab icon…</li>
-<li>Tooltips show hotkeys, for example New chat (⌘N).</li>
-<li>The workspace hover card shows the full workspace name and wraps long tab names.</li>
-<li>A Claude chat from a deleted worktree resumes from the repo folder.</li>
-<li>Dock badge for unread notifications. Drag pinned tabs to reorder them.</li>
-<li>Cmd+P Browser category opens pages from your browser history. On/off settings have a switch in Cmd+P.</li>
-<li>Markdown preview draws Mermaid diagrams. Updates are checked every hour.</li>
+<li>/rename is in the command list, and the session name shows on the right above the input.</li>
+<li>Typing ! only changes the colour. The input keeps its font and place.</li>
+<li>One thin line separates the folder chip from the input. The session name is dimmer.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build332/DevKitty-1.0.0-332.zip" length="22466123" type="application/octet-stream" sparkle:edSignature="ByemZxUPu3lRle/da0JbxDxx3e6T68JBQLMj2QvpsY/vdlSmOMLLVgESq/ggiOPlbEttYs/FnDlf2gxqX5ieAg=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build336/DevKitty-1.0.0-336.zip" length="22494935" type="application/octet-stream" sparkle:edSignature="eyMGo9EUCWIFfpEdFuwR4jRH+RcEZ6hQqHZMQ9Q2XtXCIbvKX6+M5cBq2EsS0ytzkz0A8zKs4l9IANF7DvGHCw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: pFSP49w2k6ULt1Nd2YhQXZ5zSUchLcmYmezExdTGwWvpwZElz7XXkuumiRjIlAHU3AHlcY0KzUOlXLbvKNaPAA==
-length: 2575
+edSignature: KZ8ygyIZeM5VdBV88PbyLwiDjrsIcJ49HvYVkFcPYEUnAZhs+WBDUA2WdBmCtPheqDHnEjn/1LthFYqaR8vnDA==
+length: 2075
 -->

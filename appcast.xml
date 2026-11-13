@@ -5,19 +5,19 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Fri, 13 Nov 2026 10:41:15 +0200</pubDate>
-            <sparkle:version>337</sparkle:version>
+            <pubDate>Fri, 13 Nov 2026 12:56:56 +0200</pubDate>
+            <sparkle:version>338</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Devkitty 1.0.0 (build 337)</h2>
+            <description><![CDATA[<h2>Devkitty 1.0.0 (build 338)</h2>
 <ul>
-<li>Quick AI: Cmd+N starts a new chat on Russian and other non-Latin keyboard layouts.</li>
+<li>Quick AI: after Cmd+N, the new chat stays open when you quit and reopen the app; the previous chat no longer comes back.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build337/DevKitty-1.0.0-337.zip" length="22493794" type="application/octet-stream" sparkle:edSignature="233TrWRuAb7YhMio0X2Q6pVkhxmtVKmwWJELTuvI+gsvcee550i/pFUdzpKcjnE3Ck+jGI+cxOeDXskB8SLKDQ=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build338/DevKitty-1.0.0-338.zip" length="22495138" type="application/octet-stream" sparkle:edSignature="DIXPpmnjJQ05/OmatZvACgK8EFPslbX61jmmEbhtBZfjB2X8Ty0yIaC+rGibdL9jUKEULAwEBUp9jKmRtmidAA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: bkRRc5Gs30hZBv0wUIa2zTca+k3guVY53EhqpFhqJTLVW9MLC7pm5qcHRL9zND388kdjd068qh5u4RU2KubmCA==
-length: 1257
+edSignature: tQatBnsIHRL86tt6BXCKfhgmqXGjs61hL0JFLVs4/ADuRetiPK53kj+oikpn2oKbwA4DwgHcRXcCDSIPmYr8AQ==
+length: 1295
 -->

@@ -5,24 +5,19 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Fri, 13 Nov 2026 22:49:37 +0200</pubDate>
-            <sparkle:version>341</sparkle:version>
+            <pubDate>Fri, 13 Nov 2026 23:21:03 +0200</pubDate>
+            <sparkle:version>342</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Devkitty 1.0.0 (build 341)</h2>
+            <description><![CDATA[<h2>Devkitty 1.0.0 (build 342)</h2>
 <ul>
-<li>Browser: when Devkitty is dark, websites without their own dark mode are darkened automatically. Photos and videos keep their colors.</li>
-<li>Turn it on or off for a site with the moon button in the URL bar, the page or URL-bar right-click menu, or Cmd+P. Settings &gt; Browser has the main switch and Forget for saved site choices.</li>
-<li>Sites with their own dark mode are never changed, and nothing changes in light mode.</li>
-<li>The Dock icon badge also counts tabs where an agent waits for your answer or permission (the orange dot), not only unread notifications.</li>
-<li>Devkitty turns on macOS badge permission once at launch if notifications were allowed before badges existed.</li>
-<li>Cmd+Shift+[ and Cmd+Shift+] skip tabs inside a collapsed tab group, like Cmd+1…9; the group stays closed.</li>
+<li>Quick AI: the Chat and Workspace tabs have more space on the left and right, so the selected tab no longer feels tight.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build341/DevKitty-1.0.0-341.zip" length="22517959" type="application/octet-stream" sparkle:edSignature="QI5kIwsb0OQlESJRQjf5WHtfzdej2qxEt25Xc0hzusug0+MV7mydBDDG2mrXsS5hAyNAUvvl6LGjVwM22C6hCQ=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build342/DevKitty-1.0.0-342.zip" length="22518098" type="application/octet-stream" sparkle:edSignature="cCVu9TbW6lQhQWgIRJix6OMVd8akpjfCDnKE4r2Lj9IgQaANCk08FEqww54B+39XZAUDFFqrQFK7C6kW6geaAw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: B8I7u3Z7URArSHHyQWIy0Bag3BWAWXqUsj1kGczEcRT2QqymGzp9eVdDUqmEAjlfMryCv6A6ivbCeR00++vgCw==
-length: 1983
+edSignature: bUimJOQV49C57zfoeunC8QwEU6Q9kOCzfGuBGhffxZyfHPfNaXUlcgkpYevbOqvtB9evT7Y+b3Aq08o1QECoDw==
+length: 1294
 -->

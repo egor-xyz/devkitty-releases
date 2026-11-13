@@ -5,33 +5,19 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Thu, 12 Nov 2026 19:38:51 +0200</pubDate>
-            <sparkle:version>336</sparkle:version>
+            <pubDate>Fri, 13 Nov 2026 10:41:15 +0200</pubDate>
+            <sparkle:version>337</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Devkitty 1.0.0 (build 336)</h2>
-<h3>Mute browser tabs</h3>
+            <description><![CDATA[<h2>Devkitty 1.0.0 (build 337)</h2>
 <ul>
-<li>Mute or unmute a browser tab from its right-click menu, from Cmd+P (Mute tab), or with a click on its speaker icon.</li>
-<li>A tab that plays sound shows a speaker in place of its icon. A muted tab shows a red crossed-out speaker. Workspaces show the same icons for their tabs.</li>
-<li>A muted tab stays muted after you close and reopen it, and after a restart.</li>
-</ul>
-<h3>Google Meet</h3>
-<ul>
-<li>Meet gets its microphone and camera back when another page stops using them.</li>
-<li>The floating Meet window has a slim header, so its buttons no longer cover the call.</li>
-</ul>
-<h3>Quick AI</h3>
-<ul>
-<li>/rename is in the command list, and the session name shows on the right above the input.</li>
-<li>Typing ! only changes the colour. The input keeps its font and place.</li>
-<li>One thin line separates the folder chip from the input. The session name is dimmer.</li>
+<li>Quick AI: Cmd+N starts a new chat on Russian and other non-Latin keyboard layouts.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build336/DevKitty-1.0.0-336.zip" length="22494935" type="application/octet-stream" sparkle:edSignature="eyMGo9EUCWIFfpEdFuwR4jRH+RcEZ6hQqHZMQ9Q2XtXCIbvKX6+M5cBq2EsS0ytzkz0A8zKs4l9IANF7DvGHCw=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build337/DevKitty-1.0.0-337.zip" length="22493794" type="application/octet-stream" sparkle:edSignature="233TrWRuAb7YhMio0X2Q6pVkhxmtVKmwWJELTuvI+gsvcee550i/pFUdzpKcjnE3Ck+jGI+cxOeDXskB8SLKDQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: KZ8ygyIZeM5VdBV88PbyLwiDjrsIcJ49HvYVkFcPYEUnAZhs+WBDUA2WdBmCtPheqDHnEjn/1LthFYqaR8vnDA==
-length: 2075
+edSignature: bkRRc5Gs30hZBv0wUIa2zTca+k3guVY53EhqpFhqJTLVW9MLC7pm5qcHRL9zND388kdjd068qh5u4RU2KubmCA==
+length: 1257
 -->

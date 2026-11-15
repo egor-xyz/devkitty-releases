@@ -5,28 +5,31 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Sun, 15 Nov 2026 12:41:05 +0200</pubDate>
-            <sparkle:version>347</sparkle:version>
+            <pubDate>Sun, 15 Nov 2026 16:10:53 +0200</pubDate>
+            <sparkle:version>360</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Devkitty 1.0.0 (build 347)</h2>
+            <description><![CDATA[<h2>Devkitty 1.0.0 (build 360)</h2>
 <ul>
-<li>Tabs: drag a tab onto the middle of another tab to put them side by side. Hold over it for half a second to open it, then drop on the left, right, top or bottom half. The top and bottom edges still reorder.</li>
-<li>Panes: drag a pane out of a split by its grip to make it its own tab, or drop it on another tab to join that split. A card follows the pointer, and a see-through tab shows where it will land.</li>
-<li>Browser: websites with their own light/dark mode are never recolored, and the moon button is hidden there. Google Docs, Slides and similar pages are darkened again.</li>
-<li>Browser: darkening light websites is off by default for new installs. Existing installs keep their setting (Settings &gt; Browser).</li>
-<li>Terminal: Ghostty engine updated to the latest version, with a speed fix and safer redraws. Settings shows the real engine version.</li>
-<li>Terminal: persistent sessions now use zmx 1.0.1. A big burst of output no longer pins a CPU core.</li>
-<li>After this update, open terminals reopen as new sessions in the same folder. A tab that still had Claude or Codex running has its old session ended and the agent resumed. Other old sessions keep running and are listed in Task Manager as &quot;Orphaned terminal session (previous version)&quot;.</li>
-<li>Quick AI: in a jj (Jujutsu) repository the Branch chip shows the bookmark name instead of &quot;Detached HEAD&quot;.</li>
-<li>A double-click on the empty part of the tab list creates one terminal, not several.</li>
-<li>Updated Sparkle 2.10.1, PostHog 3.97.2 and Firebase 13.2.0.</li>
+<li>Music Player (new): a toolbar button appears when a YouTube Music tab is open. The card shows the song, artwork, time bar and play/pause, next, previous and ±10 s buttons, and every button animates when pressed. Songs slide in from the right on next and from the left on previous.</li>
+<li>Music Player: Cmd-P has Play / Pause music, Next track, Previous track, Forward 10 seconds and Back 10 seconds.</li>
+<li>Music Player: starting music in one YouTube Music tab pauses the others, and the card follows the tab you started. Turn it off in Settings &gt; Music Player &gt; Pause other music tabs.</li>
+<li>Music Player: a notification with the cover art appears when the song changes. It is on by default and needs Notifications on; turn it off in Settings &gt; Music Player.</li>
+<li>Extensions menu: one compact line per extension; descriptions are in the tooltip.</li>
+<li>Toolbar: hold Cmd and drag the PR, Actions, Music and Quick AI icons to reorder them. Esc or a drop outside cancels. Cmd-P &gt; Reset Toolbar Extension Order restores the default.</li>
+<li>Esc closes the open toolbar panel (Music Player, Pull Requests, Extensions, Notifications), even when the terminal has focus.</li>
+<li>Tabs: dragging a tab over another tab sorts it. The split highlight shows only after a short hold over the other tab&#x27;s middle.</li>
+<li>Split groups in the compact tab rail can be dragged to any position, and slide aside when a tab is dragged past them.</li>
+<li>Icons: choose a colour for custom tab and workspace icons in the icon picker, from 8 distinct colours (white stays the default), or use the Multicolor swatch to pick any colour. The colour shows in tabs, hover previews, notifications, closed-tab history and menus, and survives a restart. Emoji icons keep their own colours.</li>
+<li>Terminals: a tab from before the zmx 1.0.1 update that stayed hidden (for example in Quick terminal) now ends its own old session and resumes its agent. Tabs that already lost their link in builds 347-355 still need their old session ended in Task Manager.</li>
+<li>An alert now shows once, in the active window, instead of in both the main window and Quick terminal.</li>
+<li>System Health and AI usage hover cards no longer show a dark rectangular frame around them.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build347/DevKitty-1.0.0-347.zip" length="23091126" type="application/octet-stream" sparkle:edSignature="v78POsumaejjHgjxkMLQDmJhpMBshHANAeXqq+lLbGlJCVOOmATHYb7n34q5s58kdOxS9O3QAQpaB9OdZIi0DQ=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build360/DevKitty-1.0.0-360.zip" length="23238800" type="application/octet-stream" sparkle:edSignature="yrR9ED30+ZdUOwO9QyfGaTvgyfuCfHOIAN7x9h4k7kpWr7/udejq/Pvl0X+SWYfGya48uq4hDz/xXSoIEqDKAw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: yxcsxOKTYYawOfywSIBwAIha2fJDC8wTf+/5g/sXyw3IiM2/BtJ8UwxGVu1zn1HoCr4yYrjTK95Gk1QdZbWMDw==
-length: 2737
+edSignature: vNa0HZany0raOOa2L6GzZlx7K2rqJYwvHEMTM6rK73p0PKnAG8VjzM8smlDDVrUCWJTyFARihAM9qEyI/+JVCg==
+length: 3446
 -->

@@ -5,19 +5,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Fri, 13 Nov 2026 23:21:03 +0200</pubDate>
-            <sparkle:version>342</sparkle:version>
+            <pubDate>Sun, 15 Nov 2026 12:41:05 +0200</pubDate>
+            <sparkle:version>347</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Devkitty 1.0.0 (build 342)</h2>
+            <description><![CDATA[<h2>Devkitty 1.0.0 (build 347)</h2>
 <ul>
-<li>Quick AI: the Chat and Workspace tabs have more space on the left and right, so the selected tab no longer feels tight.</li>
+<li>Tabs: drag a tab onto the middle of another tab to put them side by side. Hold over it for half a second to open it, then drop on the left, right, top or bottom half. The top and bottom edges still reorder.</li>
+<li>Panes: drag a pane out of a split by its grip to make it its own tab, or drop it on another tab to join that split. A card follows the pointer, and a see-through tab shows where it will land.</li>
+<li>Browser: websites with their own light/dark mode are never recolored, and the moon button is hidden there. Google Docs, Slides and similar pages are darkened again.</li>
+<li>Browser: darkening light websites is off by default for new installs. Existing installs keep their setting (Settings &gt; Browser).</li>
+<li>Terminal: Ghostty engine updated to the latest version, with a speed fix and safer redraws. Settings shows the real engine version.</li>
+<li>Terminal: persistent sessions now use zmx 1.0.1. A big burst of output no longer pins a CPU core.</li>
+<li>After this update, open terminals reopen as new sessions in the same folder. A tab that still had Claude or Codex running has its old session ended and the agent resumed. Other old sessions keep running and are listed in Task Manager as &quot;Orphaned terminal session (previous version)&quot;.</li>
+<li>Quick AI: in a jj (Jujutsu) repository the Branch chip shows the bookmark name instead of &quot;Detached HEAD&quot;.</li>
+<li>A double-click on the empty part of the tab list creates one terminal, not several.</li>
+<li>Updated Sparkle 2.10.1, PostHog 3.97.2 and Firebase 13.2.0.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build342/DevKitty-1.0.0-342.zip" length="22518098" type="application/octet-stream" sparkle:edSignature="cCVu9TbW6lQhQWgIRJix6OMVd8akpjfCDnKE4r2Lj9IgQaANCk08FEqww54B+39XZAUDFFqrQFK7C6kW6geaAw=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build347/DevKitty-1.0.0-347.zip" length="23091126" type="application/octet-stream" sparkle:edSignature="v78POsumaejjHgjxkMLQDmJhpMBshHANAeXqq+lLbGlJCVOOmATHYb7n34q5s58kdOxS9O3QAQpaB9OdZIi0DQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: bUimJOQV49C57zfoeunC8QwEU6Q9kOCzfGuBGhffxZyfHPfNaXUlcgkpYevbOqvtB9evT7Y+b3Aq08o1QECoDw==
-length: 1294
+edSignature: yxcsxOKTYYawOfywSIBwAIha2fJDC8wTf+/5g/sXyw3IiM2/BtJ8UwxGVu1zn1HoCr4yYrjTK95Gk1QdZbWMDw==
+length: 2737
 -->

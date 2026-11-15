@@ -1,8 +1,60 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Devkitty</title>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Sun, 15 Nov 2026 19:13:53 +0200</pubDate>
+            <sparkle:version>365</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Devkitty 1.0.0 (build 365)</h2>
+<p>Changes since build 360.</p>
+<h3>Restore</h3>
+<ul>
+<li>After an update or Force Quit, Claude tabs resume even when macOS gave the old process ID to another program.</li>
+<li>A Claude chat that was never saved now starts fresh, instead of "No conversation found".</li>
+<li>The restore message names the tabs it could not resume.</li>
+<li>Restart Agent says when it starts a new conversation.</li>
+<li>The tab keeps its name while Claude starts again.</li>
+</ul>
+<h3>Settings</h3>
+<ul>
+<li>settings.json now holds only the settings you changed. A new file is {}. Delete a key to get its default.</li>
+<li>Your old settings file is cleaned once: values equal to the default are removed. Keys you write later stay.</li>
+<li>Every setting is now in the Settings window, in settings.json and in Cmd+P, with clear names.</li>
+<li>Quick terminal shortcut, height and auto-hide are in settings.json.</li>
+<li>Removed 9 settings that no longer did anything.</li>
+</ul>
+<h3>Quick AI</h3>
+<ul>
+<li>Every Claude and Codex account (for example ~/.claude and ~/.claude-b) is found. When there is more than one, the account label in the footer is a dropdown, and the chat, / commands and skills use the chosen account.</li>
+<li>Cursor stays in the Provider menu when its login check is slow or unclear; only a clear logout or a missing CLI hides it.</li>
+<li>The account name in the footer uses the normal text colour.</li>
+</ul>
+<h3>Toolbar</h3>
+<ul>
+<li>Cmd-drag on the Pull Requests, Actions, Music and Quick AI icons reorders them instead of moving the whole window.</li>
+<li>The dragged icon follows the pointer without jumping left and right.</li>
+</ul>
+<h3>Window</h3>
+<ul>
+<li>The main window reopens on the same monitor, in the same place and size, after an update or relaunch.</li>
+<li>If that monitor is gone, or the window would be partly off screen, it opens fully on a screen.</li>
+<li>The first launch after installing this build still uses the old placement; from then on the place is kept.</li>
+</ul>
+<h3>Other</h3>
+<ul>
+<li>Claude no longer shows "hook timed out after 2s" in normal use: the activity hook is much faster, no longer leaves a stuck lock, and waits up to 10 seconds.</li>
+<li>Tabs: a busy tab says Running instead of Working.</li>
+<li>Browser: auto page darkening no longer inverts an empty app shell on script-drawn sites and then undoes it a moment later.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build365/DevKitty-1.0.0-365.zip" length="23297509" type="application/octet-stream" sparkle:edSignature="SnbBJjtdWRl32A4KWd3u1YPhSj1zVQZZp3kGXQIiaChkut8G8T7ZhdtWQ093kEjJrluwQLGKBDFi5/sH8g6SCw=="/>
+        </item>
         <item>
             <title>1.0.0</title>
             <pubDate>Sun, 15 Nov 2026 16:10:53 +0200</pubDate>
@@ -26,10 +78,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 <li>System Health and AI usage hover cards no longer show a dark rectangular frame around them.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build360/DevKitty-1.0.0-360.zip" length="23238800" type="application/octet-stream" sparkle:edSignature="yrR9ED30+ZdUOwO9QyfGaTvgyfuCfHOIAN7x9h4k7kpWr7/udejq/Pvl0X+SWYfGya48uq4hDz/xXSoIEqDKAw=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build360/DevKitty-1.0.0-360.zip" length="23238800" type="application/octet-stream" sparkle:edSignature="yrR9ED30+ZdUOwO9QyfGaTvgyfuCfHOIAN7x9h4k7kpWr7/udejq/Pvl0X+SWYfGya48uq4hDz/xXSoIEqDKAw=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: vNa0HZany0raOOa2L6GzZlx7K2rqJYwvHEMTM6rK73p0PKnAG8VjzM8smlDDVrUCWJTyFARihAM9qEyI/+JVCg==
-length: 3446
+</rss>
+<!-- sparkle-signatures:
+edSignature: 9P6yKCBKLBTQuvgnJFFw8omH4Vu6HZY4dx6gqg/mPyd7TEohP+SssJNNu/eO6lq9vl+NrZXzeTRpMHrhO2v1AQ==
+length: 6540
 -->

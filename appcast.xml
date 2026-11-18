@@ -5,43 +5,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Wed, 18 Nov 2026 21:31:06 +0200</pubDate>
-            <sparkle:version>417</sparkle:version>
+            <pubDate>Wed, 18 Nov 2026 22:51:19 +0200</pubDate>
+            <sparkle:version>419</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Devkitty 1.0.0 (build 417)</h2>
-<h3>Board AI</h3>
-<ul>
-<li>Attach images and files: Cmd+V a screenshot or a file copied in Finder, drop files on the chat, or click the paperclip. Up to 6 files (4 images); text and PDF files up to 64 KB.</li>
-<li>Cmd+L on the Board puts the cursor in the Board AI input.</li>
-<li>Attach cards to a message: drop a card on the chat, or type @.</li>
-<li>Chat history stays after an automatic restart. New chat always works.</li>
-</ul>
+            <description><![CDATA[<h2>Devkitty 1.0.0 (build 419)</h2>
 <h3>Work Board</h3>
 <ul>
-<li>Task cards: one workspace can have several cards, one per task.</li>
-<li>Sessions report their state more exactly: done means all the work is merged.</li>
-<li>A card no longer goes to Done while its session keeps working after a merge.</li>
-<li>Move to Trash and Close Tabs on a card.</li>
-<li>New boards start with Backlog, In Progress, Need Human and Done.</li>
-<li>New Project filter. Lists grow wider on big screens.</li>
+<li>A session that waits for you (needs input or blocked) moves its card to Need Human. When it reports working again, the card goes back to In Progress.</li>
+<li>A card with an open PR goes back to In Progress while its session fixes review comments.</li>
+<li>Session reports reach the Board after the session moves into a Git worktree, and when a queued message follows the report.</li>
+<li>No more empty second card (2/2) next to a task card. Old empty cards from build 417 are removed by themselves.</li>
+<li>The Project filter uses the repository a card's terminal works in.</li>
+<li>Move to Trash and Close Tabs closes the workspace too when the card owns all its tabs.</li>
 </ul>
-<h3>Settings Sync (new)</h3>
+<h3>Board AI</h3>
 <ul>
-<li>Keep your settings the same across your Macs with iCloud. Off by default. Privacy choices, repositories, sessions, chats and sign-ins never sync.</li>
-</ul>
-<h3>Other</h3>
-<ul>
-<li>A YouTube Music tab loads at launch, so the music player works right away.</li>
-<li>Clear messages when Board AI or Quick AI hits a usage limit.</li>
-<li>Settings &gt; Appearance: turn off the working or question border animation.</li>
-<li>New installs open links in your default browser.</li>
+<li>After a restart, idle sessions keep their state instead of showing unknown.</li>
+<li>Board AI never types into a session whose state is unknown.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build417/DevKitty-1.0.0-417.zip" length="25794951" type="application/octet-stream" sparkle:edSignature="6sbKEQMAsUNi+GoFkfhUu5cUpg56svx3pb72fN7mAcpm6Z5CF8GOPCvdo/cutkzvBoPpgBX3ej3K7Cftg08nAg=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build419/DevKitty-1.0.0-419.zip" length="25805788" type="application/octet-stream" sparkle:edSignature="UsiNo73mlfBMbda8onCKl7bAPC/HCXzrLau9FzqCLNEJSt2binFxQzD+RT7zQOAxUXPNsvdjvsIDfBzAC+RgDw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: kW/I2hUwTcGnKoPUErC3HrOuttKuzaLID/SY/ydESrP2h/HjpiIu8cmnhqZ+e0NBKMzCE09X1SU7mPTPF01VCw==
-length: 2568
+edSignature: icri9hWYOpIGynEj5PWPIHlWSDjqFphFvWbYf/c++pKswtIkLVQxaGV4A8EQxZzUFhfcJKb6YD1xk95xkjSJAg==
+length: 2049
 -->

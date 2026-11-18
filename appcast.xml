@@ -5,41 +5,43 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Wed, 18 Nov 2026 09:53:13 +0200</pubDate>
-            <sparkle:version>411</sparkle:version>
+            <pubDate>Wed, 18 Nov 2026 21:31:06 +0200</pubDate>
+            <sparkle:version>417</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Devkitty 1.0.0 (build 411)</h2>
-<p>This update covers builds 366 to 411.</p>
-<h3>Work Board (new)</h3>
+            <description><![CDATA[<h2>Devkitty 1.0.0 (build 417)</h2>
+<h3>Board AI</h3>
 <ul>
-<li>A Trello-style board of lists and cards for your workspaces. Cards follow your agent sessions, tabs, pull requests, links and files.</li>
-<li>Cards show the agent's model, context and cost, a working bar while the agent (or its subagents) works, and a short "From session" summary.</li>
-<li>Board AI: a chat panel that reads the board, asks your sessions for status, starts sessions and moves cards. It has an optional local memory you can edit.</li>
-<li>Smooth card drag: one card flies into its place; near the Trash it crumples into a paper ball. Lists and the Board scroll at the edges.</li>
-<li>Card window: description, private notes, checklist, links and files, a resizable side panel; a click outside closes it.</li>
+<li>Attach images and files: Cmd+V a screenshot or a file copied in Finder, drop files on the chat, or click the paperclip. Up to 6 files (4 images); text and PDF files up to 64 KB.</li>
+<li>Cmd+L on the Board puts the cursor in the Board AI input.</li>
+<li>Attach cards to a message: drop a card on the chat, or type @.</li>
+<li>Chat history stays after an automatic restart. New chat always works.</li>
 </ul>
-<h3>Mini Player</h3>
+<h3>Work Board</h3>
 <ul>
-<li>A floating music Mini Player with themes, system volume, sliding covers, and it comes back after relaunch.</li>
+<li>Task cards: one workspace can have several cards, one per task.</li>
+<li>Sessions report their state more exactly: done means all the work is merged.</li>
+<li>A card no longer goes to Done while its session keeps working after a merge.</li>
+<li>Move to Trash and Close Tabs on a card.</li>
+<li>New boards start with Backlog, In Progress, Need Human and Done.</li>
+<li>New Project filter. Lists grow wider on big screens.</li>
 </ul>
-<h3>Browser</h3>
+<h3>Settings Sync (new)</h3>
 <ul>
-<li>Browser profiles with icons, a right-click menu and a new-tab page; a simpler browser bar.</li>
+<li>Keep your settings the same across your Macs with iCloud. Off by default. Privacy choices, repositories, sessions, chats and sign-ins never sync.</li>
 </ul>
-<h3>Look</h3>
+<h3>Other</h3>
 <ul>
-<li>Nostalgia theme: a paint-only retro look for the top bar, tabs, toolbar and group chips.</li>
-</ul>
-<h3>Fixes</h3>
-<ul>
-<li>Quieter restarts, quiet waiting dots, recent icons, one tab per page, and many smaller fixes.</li>
+<li>A YouTube Music tab loads at launch, so the music player works right away.</li>
+<li>Clear messages when Board AI or Quick AI hits a usage limit.</li>
+<li>Settings &gt; Appearance: turn off the working or question border animation.</li>
+<li>New installs open links in your default browser.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build411/DevKitty-1.0.0-411.zip" length="25333418" type="application/octet-stream" sparkle:edSignature="przejRAtMw3iPLVq+LKj6kc/X7X8xlZ0cq3p6W5wgPVmt3M3OGrzPuffRldMUC779dhRV8yyKsWvH/SbpZV7Cg=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build417/DevKitty-1.0.0-417.zip" length="25794951" type="application/octet-stream" sparkle:edSignature="6sbKEQMAsUNi+GoFkfhUu5cUpg56svx3pb72fN7mAcpm6Z5CF8GOPCvdo/cutkzvBoPpgBX3ej3K7Cftg08nAg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: HXcdfxnOhkWr6mACkc/egsOn75aa2fVjRYgPWFhnAuVyH89Nizol2a2AJDQREq0AA16yWGqviX1QRlrACgemAA==
-length: 2493
+edSignature: kW/I2hUwTcGnKoPUErC3HrOuttKuzaLID/SY/ydESrP2h/HjpiIu8cmnhqZ+e0NBKMzCE09X1SU7mPTPF01VCw==
+length: 2568
 -->

@@ -5,30 +5,39 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Wed, 18 Nov 2026 22:51:19 +0200</pubDate>
-            <sparkle:version>419</sparkle:version>
+            <pubDate>Thu, 19 Nov 2026 17:17:32 +0200</pubDate>
+            <sparkle:version>422</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Devkitty 1.0.0 (build 419)</h2>
-<h3>Work Board</h3>
+            <description><![CDATA[<h2>Devkitty 1.0.0 (build 422)</h2>
+<h3>Saved tabs and terminals</h3>
 <ul>
-<li>A session that waits for you (needs input or blocked) moves its card to Need Human. When it reports working again, the card goes back to In Progress.</li>
-<li>A card with an open PR goes back to In Progress while its session fixes review comments.</li>
-<li>Session reports reach the Board after the session moves into a Git worktree, and when a queued message follows the report.</li>
-<li>No more empty second card (2/2) next to a task card. Old empty cards from build 417 are removed by themselves.</li>
-<li>The Project filter uses the repository a card's terminal works in.</li>
-<li>Move to Trash and Close Tabs closes the workspace too when the card owns all its tabs.</li>
+<li>Only one copy of Devkitty runs at a time. Opening a second copy (for example one still in Downloads) brings the open one forward, so two copies can no longer overwrite each other's saved tabs.</li>
+<li>After a restart, one damaged saved tab no longer loses every tab. The other tabs come back, and Devkitty keeps a copy of the old save file.</li>
+<li>If another copy wrote the save file and a save would drop two or more workspaces, Devkitty first keeps a copy of the old file.</li>
 </ul>
-<h3>Board AI</h3>
+<h3>Right-to-left text</h3>
 <ul>
-<li>After a restart, idle sessions keep their state instead of showing unknown.</li>
-<li>Board AI never types into a session whose state is unknown.</li>
+<li>Card titles, descriptions, notes, Board AI and Quick AI chats follow each paragraph's own writing direction: Hebrew or Arabic aligns right, English aligns left.</li>
+<li>The terminal draws Hebrew and Arabic right to left. Turn it off in Settings &gt; Terminal or in Cmd+P.</li>
+<li>Known limit: inside a right-to-left word, the cursor can sit on the wrong letter. Selection and copied text are correct.</li>
+</ul>
+<h3>Board and Board AI</h3>
+<ul>
+<li>Board AI can read Devkitty's own diagnostics (error codes, restore records, crash summaries) to explain problems. It never sees names, paths or terminal text. Turn it off in Settings &gt; Board or in Cmd+P.</li>
+<li>Drop files and folders from Finder onto a card's Files section.</li>
+<li>A new card icon also changes its workspace tab icon.</li>
+</ul>
+<h3>Browser</h3>
+<ul>
+<li>Google Meet tabs reopened after a restart are no longer kept silent. A tab with a live microphone or camera is never kept silent.</li>
+<li>Darkening light web pages is off for everyone. Turn it on in Settings &gt; Browser or in Cmd+P.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build419/DevKitty-1.0.0-419.zip" length="25805788" type="application/octet-stream" sparkle:edSignature="UsiNo73mlfBMbda8onCKl7bAPC/HCXzrLau9FzqCLNEJSt2binFxQzD+RT7zQOAxUXPNsvdjvsIDfBzAC+RgDw=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build422/DevKitty-1.0.0-422.zip" length="25927907" type="application/octet-stream" sparkle:edSignature="CfL2GFVa8gGlDJtlgZXZu+3hv/a8DK+kgavyzeCFFzcOrituWtc9Gy2RgkvyM+KltaUxpnJ7WHi2BdqthIKfCg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: icri9hWYOpIGynEj5PWPIHlWSDjqFphFvWbYf/c++pKswtIkLVQxaGV4A8EQxZzUFhfcJKb6YD1xk95xkjSJAg==
-length: 2049
+edSignature: u5kQI+4OTVO+Yv/ZU5NKZOJ3eOgYMq07+INLnzBAONjjWr7YqGtHfiB4DA9Moags3eLMZ+Dw1OqbtBbQwecaCg==
+length: 2799
 -->

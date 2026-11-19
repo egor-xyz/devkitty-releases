@@ -5,39 +5,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Thu, 19 Nov 2026 17:17:32 +0200</pubDate>
-            <sparkle:version>422</sparkle:version>
+            <pubDate>Fri, 20 Nov 2026 00:40:42 +0200</pubDate>
+            <sparkle:version>424</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Devkitty 1.0.0 (build 422)</h2>
-<h3>Saved tabs and terminals</h3>
+            <description><![CDATA[<h2>Devkitty 1.0.0 (build 424)</h2>
+<h3>Board</h3>
 <ul>
-<li>Only one copy of Devkitty runs at a time. Opening a second copy (for example one still in Downloads) brings the open one forward, so two copies can no longer overwrite each other's saved tabs.</li>
-<li>After a restart, one damaged saved tab no longer loses every tab. The other tabs come back, and Devkitty keeps a copy of the old save file.</li>
-<li>If another copy wrote the save file and a save would drop two or more workspaces, Devkitty first keeps a copy of the old file.</li>
+<li>A card whose tab is closed leaves In Progress and Need Human and goes to Done, with its name and links. A card with a pull request still open stays. Cards closed earlier move once.</li>
+<li>After you answer a session that asked for input, its card goes back from Need Human to In Progress. Starting another tab in the same card does not count as an answer.</li>
+<li>When one tab of a split workspace closes, its card goes to Done with its own name, not the workspace name. Double-clicking it reopens its closed tab.</li>
+<li>A double-click on a Board card opens its tab also when the card window was closed.</li>
+<li>When Board AI changes the icons of several cards in one reply, every tab icon changes, and Undo puts all of them back.</li>
+<li>Diagnostics record how many tabs were saved and restored at launch, as numbers only.</li>
 </ul>
-<h3>Right-to-left text</h3>
+<h3>Browser and terminal</h3>
 <ul>
-<li>Card titles, descriptions, notes, Board AI and Quick AI chats follow each paragraph's own writing direction: Hebrew or Arabic aligns right, English aligns left.</li>
-<li>The terminal draws Hebrew and Arabic right to left. Turn it off in Settings &gt; Terminal or in Cmd+P.</li>
-<li>Known limit: inside a right-to-left word, the cursor can sit on the wrong letter. Selection and copied text are correct.</li>
-</ul>
-<h3>Board and Board AI</h3>
-<ul>
-<li>Board AI can read Devkitty's own diagnostics (error codes, restore records, crash summaries) to explain problems. It never sees names, paths or terminal text. Turn it off in Settings &gt; Board or in Cmd+P.</li>
-<li>Drop files and folders from Finder onto a card's Files section.</li>
-<li>A new card icon also changes its workspace tab icon.</li>
-</ul>
-<h3>Browser</h3>
-<ul>
-<li>Google Meet tabs reopened after a restart are no longer kept silent. A tab with a live microphone or camera is never kept silent.</li>
-<li>Darkening light web pages is off for everyone. Turn it on in Settings &gt; Browser or in Cmd+P.</li>
+<li>The browser shows a clear page when a site fails to load, with Reload. It tries again when the Mac wakes or the network comes back.</li>
+<li>In the terminal, a command with a dot in its name (for example ./deploy.sh) no longer prints "bad floating point constant".</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build422/DevKitty-1.0.0-422.zip" length="25927907" type="application/octet-stream" sparkle:edSignature="CfL2GFVa8gGlDJtlgZXZu+3hv/a8DK+kgavyzeCFFzcOrituWtc9Gy2RgkvyM+KltaUxpnJ7WHi2BdqthIKfCg=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build424/DevKitty-1.0.0-424.zip" length="25960094" type="application/octet-stream" sparkle:edSignature="ozc1JeQ7KW9f/lGLuX39s8tt4Wmk6OcaPtca56BUolmY2hKC8jRDZhFRUSMZUpBH/9P79qHJVRSHDvTtYklsAA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: u5kQI+4OTVO+Yv/ZU5NKZOJ3eOgYMq07+INLnzBAONjjWr7YqGtHfiB4DA9Moags3eLMZ+Dw1OqbtBbQwecaCg==
-length: 2799
+edSignature: 7GSXHTlgHGAzFrkPWIgygWbq8S1xEPgVYCMjbN/SXzlkX7kTndFDP2CErW0eDqBQLMPv3E5Joz3ut5BBzyHxAg==
+length: 2334
 -->

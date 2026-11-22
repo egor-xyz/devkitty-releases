@@ -5,30 +5,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Fri, 20 Nov 2026 00:40:42 +0200</pubDate>
-            <sparkle:version>424</sparkle:version>
+            <pubDate>Sun, 22 Nov 2026 09:43:21 +0200</pubDate>
+            <sparkle:version>425</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Devkitty 1.0.0 (build 424)</h2>
-<h3>Board</h3>
+            <description><![CDATA[<h2>Devkitty 1.0.0 (build 425)</h2>
 <ul>
-<li>A card whose tab is closed leaves In Progress and Need Human and goes to Done, with its name and links. A card with a pull request still open stays. Cards closed earlier move once.</li>
-<li>After you answer a session that asked for input, its card goes back from Need Human to In Progress. Starting another tab in the same card does not count as an answer.</li>
-<li>When one tab of a split workspace closes, its card goes to Done with its own name, not the workspace name. Double-clicking it reopens its closed tab.</li>
-<li>A double-click on a Board card opens its tab also when the card window was closed.</li>
-<li>When Board AI changes the icons of several cards in one reply, every tab icon changes, and Undo puts all of them back.</li>
-<li>Diagnostics record how many tabs were saved and restored at launch, as numbers only.</li>
-</ul>
-<h3>Browser and terminal</h3>
-<ul>
-<li>The browser shows a clear page when a site fails to load, with Reload. It tries again when the Mac wakes or the network comes back.</li>
-<li>In the terminal, a command with a dot in its name (for example ./deploy.sh) no longer prints "bad floating point constant".</li>
+<li>A card whose agent is busy no longer stays in Need Human when it has an open pull request. It goes to In Progress and goes back when the agent stops.</li>
+<li>New list actions: "Move all cards to Trash" and "Move all cards to Trash and close tabs". One Undo restores the cards.</li>
+<li>Closed cards keep the icon they had while their workspace was open. Cards closed before this build still show the terminal icon.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build424/DevKitty-1.0.0-424.zip" length="25960094" type="application/octet-stream" sparkle:edSignature="ozc1JeQ7KW9f/lGLuX39s8tt4Wmk6OcaPtca56BUolmY2hKC8jRDZhFRUSMZUpBH/9P79qHJVRSHDvTtYklsAA=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build425/DevKitty-1.0.0-425.zip" length="25981476" type="application/octet-stream" sparkle:edSignature="ewUoq2cCtzlxeUupbgskjt9X+0Gmw2lUbpSCJmRHvi9OAkm0m8q/ymb9Z0UIPjWtjIXdd6GQqY4Ku84IRsJyBg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 7GSXHTlgHGAzFrkPWIgygWbq8S1xEPgVYCMjbN/SXzlkX7kTndFDP2CErW0eDqBQLMPv3E5Joz3ut5BBzyHxAg==
-length: 2334
+edSignature: zkWyc2vxL6L8xUqeAll4ZfeJ4N5V3vw8Kuw56yB0e5TRj4wOALCi7n3RSfPbPWkXkXEmHa+NbZcMs2RRPExeCw==
+length: 1590
 -->

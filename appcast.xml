@@ -5,23 +5,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Sun, 22 Nov 2026 21:57:55 +0200</pubDate>
-            <sparkle:version>432</sparkle:version>
+            <pubDate>Sun, 22 Nov 2026 23:09:29 +0200</pubDate>
+            <sparkle:version>434</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Build 432: Board AI can live in the Quick terminal</h3>
+            <description><![CDATA[<h3>Build 434: Board AI finds duplicates and can ask closed sessions</h3>
 <ul>
-<li>Right-click the Board AI tab and choose Move to Quick Terminal or Move to Main Window.</li>
-<li>Board AI settings have a new Show Board AI in option, also reachable from Cmd-P.</li>
-<li>Board AI returns to the main window when the Quick terminal is turned off or closed, and its place is kept after relaunch.</li>
-<li>Card actions chosen in the Quick terminal open in the main window.</li>
-<li>The Board is now named Board AI.</li>
+<li>Board AI tells apart cards with the same title and lists likely duplicates (same session, same pull request, or same title and folder). It only suggests merging or removing them.</li>
+<li>Board AI can ask a card whose agent tab is closed: it reopens the tab from the reopen history, switches its window to it, waits until the agent is ready, then sends the question. This needs "Let Board AI start agent sessions". If the tab is no longer in the reopen history, Board AI says why.</li>
+<li>Board AI now sees the open workspaces and groups, and can attach an open workspace tab to a card.</li>
+<li>Session reports say done only when nothing is left to do.</li>
+<li>Cards keep their task title when the agent exits.</li>
+<li>The recent list also shows trashed cards, and Board AI can find them.</li>
 </ul>
+<p>Limit: asking a closed Codex session is not yet tested.</p>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build432/DevKitty-1.0.0-432.zip" length="26470854" type="application/octet-stream" sparkle:edSignature="ofsbG0QL2vEhy/G0RpdX7J2C3KmwjEo6FM2Lff/mDiUV3UJN/pntz2/OL++UTXblwapAebmpKue6crS1RYgTAA=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build434/DevKitty-1.0.0-434.zip" length="26537160" type="application/octet-stream" sparkle:edSignature="pAvjXJcNAfuJjzC9g2iVIOq9Ocwp/EA2Ls3Ds/Gir97+jyyRSpKt91QN8HowgsjYHhWy9kyLZhMeRw5BcFepCA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: LEzhCtCbrw//ItBpCqk4G56QHmw+FQMQyoIvMpuis0//fFsG4c8h123/4fwrcJQ35Cx+H2w9ji1X4boFLZQQAA==
-length: 1625
+edSignature: /IWsNVSM444eNHphlP3sjHZgaGGKZYMjPVjUmt8JtTrSgRz2ZxzuCwKI9XqGSlRaCKOoADYYCWEOHgqQNHvzCQ==
+length: 2068
 -->

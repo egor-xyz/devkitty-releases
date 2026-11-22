@@ -5,21 +5,43 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Sun, 22 Nov 2026 09:43:21 +0200</pubDate>
-            <sparkle:version>425</sparkle:version>
+            <pubDate>Sun, 22 Nov 2026 17:47:36 +0200</pubDate>
+            <sparkle:version>429</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Devkitty 1.0.0 (build 425)</h2>
+            <description><![CDATA[<h3>Build 429: tabs survive outside kills, wrapped file links, Simple widget</h3>
 <ul>
-<li>A card whose agent is busy no longer stays in Need Human when it has an open pull request. It goes to In Progress and goes back when the agent stops.</li>
-<li>New list actions: "Move all cards to Trash" and "Move all cards to Trash and close tabs". One Undo restores the cards.</li>
-<li>Closed cards keep the icon they had while their workspace was open. Cards closed before this build still show the terminal icon.</li>
+<li>Each new persistent terminal tab runs in its own macOS process group. A Force Quit of an app started from one tab no longer ends the other tabs.</li>
+<li>A tab now closes only when you close it or type exit. When its session is ended from outside, the tab stays, starts again at once and resumes its agent session, also in tabs you do not see.</li>
+<li>When a tab&#x27;s session ends twice within a minute, the tab shows Session ended with Resume and Close.</li>
+<li>Limit: tabs opened before this build get this protection after their session restarts. The tab that started the killed app still loses its running programs, then resumes.</li>
+<li>Cmd-click on a file path split over two or more terminal lines opens the whole file. Cmd-click now always reads the line you clicked.</li>
+<li>The Simple AI widget&#x27;s glass capsule fits its text, with no empty space.</li>
+</ul>
+<h3>Build 428</h3>
+<ul>
+<li>A Board card shows a badge for each local port its session listens on. Click a badge to open localhost on that port.</li>
+<li>After Cmd-Shift-W closes a workspace, Cmd-Shift-T reopens all of its tabs.</li>
+</ul>
+<h3>Build 427</h3>
+<ul>
+<li>Claude sessions no longer print the devkitty-report block. Board AI writes the card report after each turn.</li>
+<li>Cmd-Shift-W closes the selected workspace and asks first when terminals still run. Cmd-W closes a terminal tab only with Command alone.</li>
+<li>The Music Player follows the source that started playing last.</li>
+</ul>
+<h3>Build 426</h3>
+<ul>
+<li>Board cards have a Slack section; Slack links open in the Slack app.</li>
+<li>A card can Stop Moving Automatically.</li>
+<li>Board AI input keeps focus, Up arrow recalls sent messages, and Board AI can group tabs by goal and report results.</li>
+<li>Double-click on a card opens its detail or the tab that waits for you. Card files open in Devkitty&#x27;s preview.</li>
+<li>Simpler Board settings. The Music Player follows any app&#x27;s Now Playing with album art.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build425/DevKitty-1.0.0-425.zip" length="25981476" type="application/octet-stream" sparkle:edSignature="ewUoq2cCtzlxeUupbgskjt9X+0Gmw2lUbpSCJmRHvi9OAkm0m8q/ymb9Z0UIPjWtjIXdd6GQqY4Ku84IRsJyBg=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build429/DevKitty-1.0.0-429.zip" length="26210416" type="application/octet-stream" sparkle:edSignature="uRutVuwJnvtEVfr+RWSYfq2Xo+yvbmwfrlhu5AQO5Pku62jSjCwnW/R+kqtLQciIJcU7lxyWzRDdh2v/PkUXDQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: zkWyc2vxL6L8xUqeAll4ZfeJ4N5V3vw8Kuw56yB0e5TRj4wOALCi7n3RSfPbPWkXkXEmHa+NbZcMs2RRPExeCw==
-length: 1590
+edSignature: OmMnvOFwW6sLU/8knQ5jix9otWS8PFNZjorpafPGpmkXJUB0RPjHZGbtC7qrxT8PHzrpq0QcI+SSYmTkpprSCg==
+length: 3197
 -->

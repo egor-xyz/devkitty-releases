@@ -5,25 +5,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Sun, 22 Nov 2026 18:21:00 +0200</pubDate>
-            <sparkle:version>431</sparkle:version>
+            <pubDate>Sun, 22 Nov 2026 21:57:55 +0200</pubDate>
+            <sparkle:version>432</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Build 431: answer Claude Code permission prompts from a Devkitty panel</h3>
+            <description><![CDATA[<h3>Build 432: Board AI can live in the Quick terminal</h3>
 <ul>
-<li>Claude Code permission prompts can be answered from a Devkitty panel. It is off by default. Turn it on in Settings, Claude Code, or search permission in Cmd-P.</li>
-<li>Each waiting prompt gets its own card. Return answers Yes after a short guard. Tab and the arrow keys move focus. Esc, the close button or a click outside leaves the prompt in the terminal.</li>
-<li>A card shows the command, Claude's description and the text of the hook that asked, for example Tego.</li>
-<li>An https link in a card switches to the tab of that question and opens the page in a split beside its terminal.</li>
-<li>File edits and overlong commands have no Yes button. Answer those in the terminal.</li>
-<li>New Claude Code settings page with permission prompts and conversation titles.</li>
-<li>Limit: works with Claude Code only.</li>
+<li>Right-click the Board AI tab and choose Move to Quick Terminal or Move to Main Window.</li>
+<li>Board AI settings have a new Show Board AI in option, also reachable from Cmd-P.</li>
+<li>Board AI returns to the main window when the Quick terminal is turned off or closed, and its place is kept after relaunch.</li>
+<li>Card actions chosen in the Quick terminal open in the main window.</li>
+<li>The Board is now named Board AI.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build431/DevKitty-1.0.0-431.zip" length="26327582" type="application/octet-stream" sparkle:edSignature="1H4GvNPAqoEQSqqkuW7RuASVnY4Lygjrep/5xhY4/OUo6nuDYVKiXm3Pt3kPXDRebUQehUWUAaJRt8BEfbVoDw=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build432/DevKitty-1.0.0-432.zip" length="26470854" type="application/octet-stream" sparkle:edSignature="ofsbG0QL2vEhy/G0RpdX7J2C3KmwjEo6FM2Lff/mDiUV3UJN/pntz2/OL++UTXblwapAebmpKue6crS1RYgTAA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: den47mQM/NSNytDCjELmBRPnMgwO057FCAoQ5nCR0cTwb5L5GKSlpTGMSUPCPesqyQ8KO9DuXtFQRafGs6rQCA==
-length: 2034
+edSignature: LEzhCtCbrw//ItBpCqk4G56QHmw+FQMQyoIvMpuis0//fFsG4c8h123/4fwrcJQ35Cx+H2w9ji1X4boFLZQQAA==
+length: 1625
 -->

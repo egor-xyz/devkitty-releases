@@ -5,22 +5,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Tue, 24 Nov 2026 09:22:45 +0200</pubDate>
-            <sparkle:version>435</sparkle:version>
+            <pubDate>Tue, 24 Nov 2026 11:13:50 +0200</pubDate>
+            <sparkle:version>436</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Board reconnects a resumed session; browser recovers from a page crash</h2>
+            <description><![CDATA[<h2>Quiet background tabs, card descriptions, folder fix and full Cmd-P</h2>
 <ul>
-<li>Resuming a Claude session in a new tab reconnects it to the card that already has that session. If the card is in Trash, it comes back automatically with its links and column, instead of a new duplicate card.</li>
-<li>The built-in browser reloads a page after its page process crashes. Before, a crashed Google Meet call stayed silent until a manual reload.</li>
-<li>Tab mute and sound start/stop are now logged for diagnosis.</li>
-<li>Limit: cards made before this build have no stored session, so they cannot be reconnected. Only Claude sessions are matched (not Codex or Cursor).</li>
+<li>A workspace you are not looking at no longer jumps to the front when it opens a tab. You get a notification and a plum dot on that workspace instead.</li>
+<li>Double-clicking the window header zooms the window, like a normal title bar (it follows your System Settings choice).</li>
+<li>The Board review list is now called "Need You", for new and existing boards.</li>
+<li>The card window folds long attachment groups. Click a group header to open or close it.</li>
+<li>Board AI writes a ticket-style description (Summary, Context, Scope, Acceptance criteria, Links) for cards with an empty description. It never replaces your own text. At most 6 automatic writes per hour.</li>
+<li>A workspace folder now follows the repo its agent works in. "+" opens in the focused tab's folder. Right-click a workspace tab and choose "Change Folder…" to fix a wrong folder.</li>
+<li>Cmd-P now lists every command, including Copy URL, Find, focus pane up/down and Image Optimizer pause/resume.</li>
+<li>The old GitHub repository dashboard (already hidden) and its code are removed.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build435/DevKitty-1.0.0-435.zip" length="26550852" type="application/octet-stream" sparkle:edSignature="w7fV1buwzK1u6FoJIPqbvVsHMJuMfDjXJvIMggyUeIyfCjpCnmw2u8HMYW+uzIVg5RUeITVLUNB5WiELkzNeDQ=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build436/DevKitty-1.0.0-436.zip" length="26105008" type="application/octet-stream" sparkle:edSignature="1Fez52/Q2Ft/EZ6QfpxL9UFvmpkn4MIEAK62owv5VAMtr1YCDk4JQx4/2uANFPCFWgXejTh1KUg5IGDr5D+mBw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: njqZT1kGw/geUc99WksOFIs1Z2ey06T3Etz2rhnO1DuGOvs9V6EQyFdq/T8+yDS3dAUml0WZ94dLkwiXRcPyCg==
-length: 1801
+edSignature: Rsfwu2JBca8r7p7Fv7WscIgFveeurfeqwNmcyybl5QIiaQqYOdbEq2+UlqiRoMb7h/PYDx88K4i6P2eXDQXTDw==
+length: 2284
 -->

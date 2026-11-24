@@ -5,26 +5,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Tue, 24 Nov 2026 11:13:50 +0200</pubDate>
-            <sparkle:version>436</sparkle:version>
+            <pubDate>Tue, 24 Nov 2026 19:32:53 +0200</pubDate>
+            <sparkle:version>454</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Quiet background tabs, card descriptions, folder fix and full Cmd-P</h2>
+            <description><![CDATA[<h2>Agents can drive Devkitty, browser hover fixed, smoother browser</h2>
 <ul>
-<li>A workspace you are not looking at no longer jumps to the front when it opens a tab. You get a notification and a plum dot on that workspace instead.</li>
-<li>Double-clicking the window header zooms the window, like a normal title bar (it follows your System Settings choice).</li>
-<li>The Board review list is now called "Need You", for new and existing boards.</li>
-<li>The card window folds long attachment groups. Click a group header to open or close it.</li>
-<li>Board AI writes a ticket-style description (Summary, Context, Scope, Acceptance criteria, Links) for cards with an empty description. It never replaces your own text. At most 6 automatic writes per hour.</li>
-<li>A workspace folder now follows the repo its agent works in. "+" opens in the focused tab's folder. Right-click a workspace tab and choose "Change Folder…" to fix a wrong folder.</li>
-<li>Cmd-P now lists every command, including Copy URL, Find, focus pane up/down and Image Optimizer pause/resume.</li>
-<li>The old GitHub repository dashboard (already hidden) and its code are removed.</li>
+<li>Board AI: Claude, Codex and Cursor sessions in a Devkitty terminal can use the devkitty command. They can open a tab or workspace, split their pane and run a command there, open a browser page, and rename or set the icon of their workspace or tab. It works only in Devkitty terminals, with a secret key per session, on the session's own workspace only, at most 10 new tabs per minute. It cannot close, quit or list anything. Switch: Settings › Board AI › Let agent sessions control Devkitty.</li>
+<li>Browser: hover and the hand cursor work again in focused pages and full browser tabs.</li>
+<li>Browser: the URL bar slides down and up smoothly, and the page moves with it. The arrow tab that shows it has a normal arrow cursor.</li>
+<li>Browser in a split: drag and close are in the URL bar. With the bar hidden, only the top-centre arrow shows, and one click opens the bar even if the pane is not focused.</li>
+<li>Browser: every row in the Profile menu shows its icon.</li>
+<li>Board: a Search cards box (Cmd-F). Restore brings back a card's saved tabs in one workspace.</li>
+<li>Board: renaming a card renames its workspace tab, and a name you give a tab or workspace shows on its card instead of the AI title.</li>
+<li>Board AI can give open cards their own icons and short names. It no longer picks a plain terminal or tool icon. Your own names and icons always win.</li>
+<li>GitHub Actions: jobs from one reusable-workflow call show in one stage, like on GitHub.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build436/DevKitty-1.0.0-436.zip" length="26105008" type="application/octet-stream" sparkle:edSignature="1Fez52/Q2Ft/EZ6QfpxL9UFvmpkn4MIEAK62owv5VAMtr1YCDk4JQx4/2uANFPCFWgXejTh1KUg5IGDr5D+mBw=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build454/DevKitty-1.0.0-454.zip" length="26092858" type="application/octet-stream" sparkle:edSignature="wyK7vMpFnbYjFZvyMN+QL1MEBYRKMDwphWbWCSJFTbaTMlVOA1bXbAfs8VUDyPl4P3XepIHdV1H0UjquQAyDDg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: Rsfwu2JBca8r7p7Fv7WscIgFveeurfeqwNmcyybl5QIiaQqYOdbEq2+UlqiRoMb7h/PYDx88K4i6P2eXDQXTDw==
-length: 2284
+edSignature: YyQ3KIYM8sXwP1xIPFeXg1WKZs7DcqYeM9iVoKt184jiNL0Q6NhPuPtQdFgQ6kel/q7aLiLEat9nKq/8XRd5Cw==
+length: 2686
 -->

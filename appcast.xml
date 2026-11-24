@@ -5,25 +5,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Sun, 22 Nov 2026 23:09:29 +0200</pubDate>
-            <sparkle:version>434</sparkle:version>
+            <pubDate>Tue, 24 Nov 2026 09:22:45 +0200</pubDate>
+            <sparkle:version>435</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Build 434: Board AI finds duplicates and can ask closed sessions</h3>
+            <description><![CDATA[<h2>Board reconnects a resumed session; browser recovers from a page crash</h2>
 <ul>
-<li>Board AI tells apart cards with the same title and lists likely duplicates (same session, same pull request, or same title and folder). It only suggests merging or removing them.</li>
-<li>Board AI can ask a card whose agent tab is closed: it reopens the tab from the reopen history, switches its window to it, waits until the agent is ready, then sends the question. This needs "Let Board AI start agent sessions". If the tab is no longer in the reopen history, Board AI says why.</li>
-<li>Board AI now sees the open workspaces and groups, and can attach an open workspace tab to a card.</li>
-<li>Session reports say done only when nothing is left to do.</li>
-<li>Cards keep their task title when the agent exits.</li>
-<li>The recent list also shows trashed cards, and Board AI can find them.</li>
+<li>Resuming a Claude session in a new tab reconnects it to the card that already has that session. If the card is in Trash, it comes back automatically with its links and column, instead of a new duplicate card.</li>
+<li>The built-in browser reloads a page after its page process crashes. Before, a crashed Google Meet call stayed silent until a manual reload.</li>
+<li>Tab mute and sound start/stop are now logged for diagnosis.</li>
+<li>Limit: cards made before this build have no stored session, so they cannot be reconnected. Only Claude sessions are matched (not Codex or Cursor).</li>
 </ul>
-<p>Limit: asking a closed Codex session is not yet tested.</p>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build434/DevKitty-1.0.0-434.zip" length="26537160" type="application/octet-stream" sparkle:edSignature="pAvjXJcNAfuJjzC9g2iVIOq9Ocwp/EA2Ls3Ds/Gir97+jyyRSpKt91QN8HowgsjYHhWy9kyLZhMeRw5BcFepCA=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build435/DevKitty-1.0.0-435.zip" length="26550852" type="application/octet-stream" sparkle:edSignature="w7fV1buwzK1u6FoJIPqbvVsHMJuMfDjXJvIMggyUeIyfCjpCnmw2u8HMYW+uzIVg5RUeITVLUNB5WiELkzNeDQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: /IWsNVSM444eNHphlP3sjHZgaGGKZYMjPVjUmt8JtTrSgRz2ZxzuCwKI9XqGSlRaCKOoADYYCWEOHgqQNHvzCQ==
-length: 2068
+edSignature: njqZT1kGw/geUc99WksOFIs1Z2ey06T3Etz2rhnO1DuGOvs9V6EQyFdq/T8+yDS3dAUml0WZ94dLkwiXRcPyCg==
+length: 1801
 -->

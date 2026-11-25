@@ -5,25 +5,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Wed, 25 Nov 2026 10:58:38 +0200</pubDate>
-            <sparkle:version>459</sparkle:version>
+            <pubDate>Wed, 25 Nov 2026 18:50:54 +0200</pubDate>
+            <sparkle:version>466</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Board AI uses fewer tokens; AI Usage page with a graph</h2><ul>
-<li>Board AI no longer types &quot;Board check&quot; prompts into your sessions. It reads the last report from the transcript instead.</li>
-<li>New Settings page &quot;AI Usage&quot;: a bar graph of tokens with 24h / 7d / 30d / All time filters, totals (tokens, cost, calls) and a table for each source. &quot;Clear usage history&quot; resets it.</li>
-<li>Usage (tokens and cost) in the context ring popover: Today and Since launch for Board AI, This chat for Quick AI, with a Details link to the AI Usage page.</li>
-<li>The context ring always shows, also in a new chat and when Board AI is off. &quot;Start fresh session&quot; is removed from the popover; use New chat at the top.</li>
-<li>One master Board AI switch in Settings and Command-P. When off, Board AI makes no model calls, starts no AI command-line tools, and its other switches are disabled.</li>
-<li>Background model and effort pickers for Board AI side jobs (briefs, grouping, names, icons). Default: same as Board AI.</li>
-<li>Automatic briefs use a short excerpt, not a fork of the whole session. The Board chat starts fresh after 100k tokens, with a handover note. New chat hides the old chat at once.</li>
-<li>Limits: cost is a list-price estimate from Claude Code (not a bill on a subscription); Codex and Cursor cost may be partial and shows as &quot;$x+&quot;. Hourly data starts with this build.</li>
+            <description><![CDATA[<h2>GitHub Actions pop-up card; cleaner Board cards; Board names and icons</h2><ul>
+<li>GitHub Actions opens as a pop-up card from its toolbar button, like Music: glass, an arrow, 560 pt wide. The card reopens at the same place, with the same rows expanded and the same scroll, also inside a run&#x27;s job map. A row closes when a new run replaces it.</li>
+<li>A pop-out button in the card header opens the floating GitHub Actions window. The card and the window can be open at the same time. The window keeps a margin from the screen edge; Settings has &quot;Keep on top&quot; and a background opacity slider.</li>
+<li>Board cards: no colored strip on top; the tab-group tag sits top right. The bottom row shows only the status, one link count and PR numbers (up to 3, then +N). Click a PR number to open the PR in a browser tab.</li>
+<li>The Board gives tabs and workspaces real names and icons, and card icons show on their tabs. Names and icons you set yourself are never changed. New: Regenerate Name and Icon in the card menu.</li>
+<li>Board AI answers each message with a small fresh request (rules, board, memory, a short summary and the last messages).</li>
+<li>Claude&#x27;s multiple-choice questions show in the Devkitty panel: pick with clicks or keys 1–5, or type your own answer.</li>
+<li>The Claude permission panel works again for sessions that were running when Devkitty restarted or updated.</li>
+<li>Update download errors save their error codes in the bug report and diagnostics.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build459/DevKitty-1.0.0-459.zip" length="26205729" type="application/octet-stream" sparkle:edSignature="iRNGpephJVx00t0maThOc/STmNGP+3du93moJDzbIYsEctgdvof7JbOGDaaYh3QxIWHekWNeapugoFGd0Yb0Dw=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build466/DevKitty-1.0.0-466.zip" length="26504368" type="application/octet-stream" sparkle:edSignature="/CNeyhU5ORaQMRSIe2yF62Vtmqk34sH0wvjSwPLHzol8pT8oVVnFMLgm7K91MCOfJ/IdioPuAv0oqLnpLnQlAA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 4zXj6vBV61LcIko1AntNFNfC7tvUOvmMBfeJJxwBl+n7cZ53qm4zNejrwQUQMKl7qKlSp5lm88KQ4f+LA3UaAA==
-length: 2568
+edSignature: BsRpvFJWoZ3aBp7olbSAKyiZ89QCROY0kyel/f7r/Xf6poNzXrFBetxmXe8q2w4IOoR78FspwMhaVPzXMcTqCg==
+length: 2632
 -->

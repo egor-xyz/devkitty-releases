@@ -5,24 +5,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Tue, 24 Nov 2026 21:06:26 +0200</pubDate>
-            <sparkle:version>457</sparkle:version>
+            <pubDate>Wed, 25 Nov 2026 10:58:38 +0200</pubDate>
+            <sparkle:version>459</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>One name for card, tab and Claude session; Board AI chat queue</h2>
-<ul>
-<li>Board AI: a card, its tab and its Claude Code session now share one name. When you or the Board AI chat rename a card, the name goes to its workspace tab or task tab, and then to its Claude session at your next message. This also works when a workspace has more than one card.</li>
-<li>Board AI: Claude sessions that were already running also take the new name at your next message. You do not need to restart them.</li>
-<li>Board AI: when you rename a Claude session with /rename, its tab and card take that name. A name you typed always beats an AI name. Switch: Settings › Board AI › Keep agent session names in sync (on by default). Codex and Cursor sessions are not renamed yet.</li>
-<li>Board AI: names are short, 1 to 4 words. Older card names that stayed only on the card now go to the workspace tab once.</li>
-<li>Board AI chat: a message you send while Board AI is answering waits in a queue, shown as Queued, with an x to remove it. Earlier messages are never replaced. Stop puts the queued messages back in the input box. The chat scrolls down only when you are at the bottom or you send.</li>
-<li>Claude Code: the permission prompts panel is on by default again. Switch it off in Settings › Claude Code or in Command-P.</li>
+            <description><![CDATA[<h2>Board AI uses fewer tokens; AI Usage page with a graph</h2><ul>
+<li>Board AI no longer types &quot;Board check&quot; prompts into your sessions. It reads the last report from the transcript instead.</li>
+<li>New Settings page &quot;AI Usage&quot;: a bar graph of tokens with 24h / 7d / 30d / All time filters, totals (tokens, cost, calls) and a table for each source. &quot;Clear usage history&quot; resets it.</li>
+<li>Usage (tokens and cost) in the context ring popover: Today and Since launch for Board AI, This chat for Quick AI, with a Details link to the AI Usage page.</li>
+<li>The context ring always shows, also in a new chat and when Board AI is off. &quot;Start fresh session&quot; is removed from the popover; use New chat at the top.</li>
+<li>One master Board AI switch in Settings and Command-P. When off, Board AI makes no model calls, starts no AI command-line tools, and its other switches are disabled.</li>
+<li>Background model and effort pickers for Board AI side jobs (briefs, grouping, names, icons). Default: same as Board AI.</li>
+<li>Automatic briefs use a short excerpt, not a fork of the whole session. The Board chat starts fresh after 100k tokens, with a handover note. New chat hides the old chat at once.</li>
+<li>Limits: cost is a list-price estimate from Claude Code (not a bill on a subscription); Codex and Cursor cost may be partial and shows as &quot;$x+&quot;. Hourly data starts with this build.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build457/DevKitty-1.0.0-457.zip" length="26123500" type="application/octet-stream" sparkle:edSignature="Mps3YP2+TbmAqbwmjBlAgiQ5uSozGQkHSEW55u1yapuVIezjG9JlZhM46HwJjJhL63ikpLpu8nk1fHkFLOFBDw=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build459/DevKitty-1.0.0-459.zip" length="26205729" type="application/octet-stream" sparkle:edSignature="iRNGpephJVx00t0maThOc/STmNGP+3du93moJDzbIYsEctgdvof7JbOGDaaYh3QxIWHekWNeapugoFGd0Yb0Dw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: ZRr7cWdP45xhXPJ7b51LnJBmeYsd4hPujUnSkHCZohbsn+trABpkV0UCH688enC2/W/7L3cdR+w+UX5/i7CBAA==
-length: 2449
+edSignature: 4zXj6vBV61LcIko1AntNFNfC7tvUOvmMBfeJJxwBl+n7cZ53qm4zNejrwQUQMKl7qKlSp5lm88KQ4f+LA3UaAA==
+length: 2568
 -->

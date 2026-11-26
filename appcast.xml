@@ -5,25 +5,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Devkitty</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Wed, 25 Nov 2026 18:50:54 +0200</pubDate>
-            <sparkle:version>466</sparkle:version>
+            <pubDate>Thu, 26 Nov 2026 21:08:22 +0200</pubDate>
+            <sparkle:version>468</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>GitHub Actions pop-up card; cleaner Board cards; Board names and icons</h2><ul>
-<li>GitHub Actions opens as a pop-up card from its toolbar button, like Music: glass, an arrow, 560 pt wide. The card reopens at the same place, with the same rows expanded and the same scroll, also inside a run&#x27;s job map. A row closes when a new run replaces it.</li>
-<li>A pop-out button in the card header opens the floating GitHub Actions window. The card and the window can be open at the same time. The window keeps a margin from the screen edge; Settings has &quot;Keep on top&quot; and a background opacity slider.</li>
-<li>Board cards: no colored strip on top; the tab-group tag sits top right. The bottom row shows only the status, one link count and PR numbers (up to 3, then +N). Click a PR number to open the PR in a browser tab.</li>
-<li>The Board gives tabs and workspaces real names and icons, and card icons show on their tabs. Names and icons you set yourself are never changed. New: Regenerate Name and Icon in the card menu.</li>
-<li>Board AI answers each message with a small fresh request (rules, board, memory, a short summary and the last messages).</li>
-<li>Claude&#x27;s multiple-choice questions show in the Devkitty panel: pick with clicks or keys 1–5, or type your own answer.</li>
-<li>The Claude permission panel works again for sessions that were running when Devkitty restarted or updated.</li>
-<li>Update download errors save their error codes in the bug report and diagnostics.</li>
+            <description><![CDATA[<h2>Bigger Meet window, per-window sidebar width, cleaner Board cards</h2><ul>
+<li>The Google Meet floating window opens bigger, at 394 by 560 points, so the call grid fits.</li>
+<li>Resizing the sidebar in one window no longer resizes the sidebar in your other windows. Each window keeps its own width, also after a restart.</li>
+<li>The &quot;Drop pane here to separate&quot; box is gone from the terminal sidebar. Use Move Out of Split (right-click or Cmd-K) to pull a pane out.</li>
+<li>Board card names no longer show &quot;Image #1&quot; or &quot;[Pasted text #N]&quot; from your first message.</li>
+<li>Board AI card names and icons are now off by default. Turn them on in Settings &gt; Board. Your earlier choice is kept.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build466/DevKitty-1.0.0-466.zip" length="26504368" type="application/octet-stream" sparkle:edSignature="/CNeyhU5ORaQMRSIe2yF62Vtmqk34sH0wvjSwPLHzol8pT8oVVnFMLgm7K91MCOfJ/IdioPuAv0oqLnpLnQlAA=="></enclosure>
+            <enclosure url="https://github.com/egor-xyz/devkitty-releases/releases/download/v1.0.0-build468/DevKitty-1.0.0-468.zip" length="26501837" type="application/octet-stream" sparkle:edSignature="mI92RcM9dJRzLWFZc4/nt2tWWfQZDkqJ76dMJ92k39AqqKIX/f6XOqHAp95gfkdLwFQdFRiSOhuaxfN+X4+AAg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: BsRpvFJWoZ3aBp7olbSAKyiZ89QCROY0kyel/f7r/Xf6poNzXrFBetxmXe8q2w4IOoR78FspwMhaVPzXMcTqCg==
-length: 2632
+edSignature: QiliffLsGkAP28V6V1aVYoNi43pQgVrjGsZwIOmU5X++92ny2eVz8mpCKtM5Bvj7n6b23un7GjuKB/BA8z5iAQ==
+length: 1859
 -->
